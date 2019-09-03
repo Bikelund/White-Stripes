@@ -1,6 +1,6 @@
 ---
-layout: horizontal-scroll
-title: "horizontal-scroll"
+layout: showcase
+title: "showcase"
 ---
 
 <div class="horizontal-scroll-wrapper squares">
