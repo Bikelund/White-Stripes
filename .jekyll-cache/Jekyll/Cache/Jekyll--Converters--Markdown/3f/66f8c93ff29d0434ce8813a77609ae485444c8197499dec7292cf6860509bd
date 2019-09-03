@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>The White Stripes - </title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <script src="assets/javascript/anime.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="intro">
+I"Ž<div class="intro">
     <p id="intro-text"></p>
 </div>
 
@@ -20,7 +9,7 @@
         <div class="main-nav">
             <ul class="nav" id="anchor-link">
                 <li><a class="custom-underline" href="#">Home</a></li>
-                <li><a class="custom-underline" href="#">Horizontal-scroll</a></li>
+                <li><a class="custom-underline" href="#"></a></li>
                 <li><a class="custom-underline" href="#">About</a></li>
             </ul>
             <h1 class="title-horizontal">The White Stripes</h1>
@@ -57,6 +46,4 @@
 
 <script src="assets/javascript/introTextAnimation.js"></script>
 
-
-  </body>
-</html>
+:ET
