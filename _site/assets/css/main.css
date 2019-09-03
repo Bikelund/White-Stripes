@@ -38,8 +38,10 @@ ul { padding: 0; margin: 4vw 0 0 5vh; }
 
 .nav li:hover .custom-underline::after { width: 100%; left: 0%; }
 
-.intro { width: 100vw; height: 100vh; margin: 0; padding: 0; background-color: black; z-index: 10; position: absolute; top: 0; left: 0; opacity: 0; }
+.intro { width: 100vw; height: 100vh; margin: 0; padding: 0; background-color: black; z-index: 10; position: absolute; top: 0; left: 0; opacity: 1; }
 
 #intro-text { color: white; font-size: 12vh; text-align: center; width: 100%; margin: 35vh auto 0; }
+
+#intro-text::after { content: "  |||"; color: red; }
 
 /*# sourceMappingURL=main.css.map */

@@ -8,7 +8,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0; // Edit this for later
+    opacity: 1;
 }
 #intro-text {
     color: white;
@@ -16,4 +16,8 @@
     text-align: center;
     width: 100%;
     margin: 35vh auto 0;
+}
+#intro-text::after {
+    content: "  |||";
+    color: red;
 }

@@ -30,3 +30,4 @@ title: "The White Stripes"
 </div>
 
 <script src="assets/javascript/introText.js"></script>
+<script src="assets/javascript/introTextAnimation.js"></script>

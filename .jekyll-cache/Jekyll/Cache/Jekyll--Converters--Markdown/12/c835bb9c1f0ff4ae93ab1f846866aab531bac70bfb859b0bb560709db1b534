@@ -1,4 +1,4 @@
-I"[<div class="intro">
+I"œ<div class="intro">
     <p id="intro-text"></p>
 </div>
 
@@ -25,5 +25,7 @@
 </div>
 
 <script src="assets/javascript/introText.js"></script>
+
+<script src="assets/javascript/introTextAnimation.js"></script>
 
 :ET
