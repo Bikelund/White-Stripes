@@ -1,0 +1,24 @@
+---
+layout: about
+title: "About The White Stripes"
+---
+
+<div class="about" id="about">
+    <div id="hero"></div>
+    <div class="about__content-section">
+        <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quidem repudiandae. Voluptate dolor quaerat illo perspiciatis veritatis molestias! Ut, accusantium.</strong>
+        <p class="content__p1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, iusto.</p>
+        <p class="content__p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil tempora vitae iste suscipit dolor reprehenderit.</p>
+        <div class="contact">
+            <h4>Contact</h4>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-envelope-open-text"></i></a>
+        </div>
+    </div>
+    <div class="about__title-section">
+        <h4>About</h4>
+        <div class="seperator"></div>
+    </div>
+</div>
+<script src="https://kit.fontawesome.com/3e27283071.js"></script>

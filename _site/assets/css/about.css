@@ -1,0 +1,73 @@
+body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; margin: 0; padding: 0; font-family: 'Poppins', sans-serif; }
+
+.index-container { display: flex; }
+
+.left { width: 32vw; height: 100vh; background-image: url(/assets/cosmonaut_rob_jones.jpg); background-size: cover; }
+
+.middle { width: 8vw; height: 100vh; background-color: white; }
+
+.right { width: 60vw; height: 100vh; background-color: white; overflow: hidden; }
+
+.title-horizontal { float: right; margin: 0; padding: 0; margin-right: 5vh; }
+
+.title-vertical { margin: 0; padding: 0; margin-left: 12px; }
+
+.quote { font-size: 16vh; margin: 0; padding: 0; text-align: right; }
+
+/* Navigation */
+.main-nav { width: 100vh; height: 8vw; position: fixed; background: white; -webkit-transform-origin: left top; -webkit-transform: rotate(-90deg) translateX(-100%); }
+
+.main-nav:after { content: ""; background: black; position: absolute; bottom: 0; left: 4vh; height: 1px; width: 91vh; }
+
+ul.nav li { margin-right: 5vh; float: left; height: 100%; line-height: 45px; }
+
+li { list-style: none; }
+
+ul { padding: 0; margin: 4vw 0 0 5vh; }
+
+.nav a { text-decoration: none; color: black; }
+
+/* Menu bar underline */
+.custom-underline { position: relative; }
+
+.custom-underline:hover, .custom-underline:focus, .custom-underline:active { color: black; text-decoration: none; }
+
+.custom-underline::after { content: ""; position: absolute; }
+
+.nav .custom-underline::after { top: 100%; height: 2px; width: 0%; left: 50%; background-color: red; transition: all .6s; transform-origin: 0 0; }
+
+.nav li:hover .custom-underline::after { width: 100%; left: 0%; }
+
+.intro { width: 100vw; height: 100vh; margin: 0; padding: 0; background-color: black; z-index: 10; position: absolute; top: 0; left: 0; opacity: 0; }
+
+#intro-text { color: white; font-size: 12vh; text-align: center; width: 100%; margin: 35vh auto 0; }
+
+#about { display: grid; grid-template-columns: 1fr 2fr 10%; grid-gap: 20px; overflow: visible; }
+
+#hero { position: relative; width: auto; height: 100vh; overflow: hidden; background: indianred; }
+
+.about__content-section { padding-top: 2rem; width: 100%; display: grid; grid-template-areas: "strong strong strong" "p1     p2     contact"; grid-gap: 15px; }
+
+.about__content-section strong { grid-area: strong; grid-column: 1 / -1; font-size: 2rem; }
+
+.about__content-section .content__p1, .about__content-section .content__p2 { width: 80%; font-size: .8rem; color: #4d4d4d; }
+
+.about__content-section .content__p1 { grid-area: p1; }
+
+.about__content-section .content__p2 { grid-area: p2; }
+
+.about__content-section .contact { grid-area: contact; justify-items: center; width: 100%; height: 50%; position: relative; top: -10%; display: grid; }
+
+.about__content-section .contact h4 { font-weight: 100; color: #4d4d4d; }
+
+.about__content-section .contact i { font-size: 1.4rem; color: #000000; }
+
+.about__content-section .contact i:hover { color: #b3b3b3; }
+
+.about__title-section { width: 100%; display: flex; justify-content: flex-end; align-items: center; }
+
+.about__title-section h4 { font-size: 1rem; font-weight: 100; color: #4d4d4d; margin-right: 20%; }
+
+.about__title-section .seperator { width: 3px; height: 80vh; background: #b3b3b3; }
+
+/*# sourceMappingURL=about.css.map */
