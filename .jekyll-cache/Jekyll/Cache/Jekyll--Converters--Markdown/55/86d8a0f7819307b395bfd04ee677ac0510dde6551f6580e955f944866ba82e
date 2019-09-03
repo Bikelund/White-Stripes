@@ -1,11 +1,7 @@
----
-layout: default
-title: "The White Stripes"
----
-
-<div class="intro">
-    <p id="intro-text"></p>
+I"Ð<div class="intro">
 </div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p id="intro-text"&gt;&lt;/p&gt;
+</code></pre></div></div>
 
 <div class="index-container">
     <div class="left">
@@ -30,3 +26,5 @@ title: "The White Stripes"
 </div>
 
 <script src="assets/javascript/introText.js"></script>
+
+:ET

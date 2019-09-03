@@ -1,10 +1,5 @@
----
-layout: default
-title: "The White Stripes"
----
-
-<div class="intro">
-    <p id="intro-text"></p>
+I"%<div class="intro">
+    <p class="intro-text"></p>
 </div>
 
 <div class="index-container">
@@ -28,5 +23,4 @@ title: "The White Stripes"
         <p class="quote quote4">Enough Water</p>
     </div>
 </div>
-
-<script src="assets/javascript/introText.js"></script>
+:ET

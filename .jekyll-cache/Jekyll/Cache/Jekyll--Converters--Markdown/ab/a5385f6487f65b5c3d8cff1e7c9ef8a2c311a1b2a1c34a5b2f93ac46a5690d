@@ -1,9 +1,4 @@
----
-layout: default
-title: "The White Stripes"
----
-
-<div class="intro">
+I"I<div class="intro">
     <p id="intro-text"></p>
 </div>
 
@@ -29,4 +24,6 @@ title: "The White Stripes"
     </div>
 </div>
 
-<script src="assets/javascript/introText.js"></script>
+<script src="introText.js"></script>
+
+:ET
