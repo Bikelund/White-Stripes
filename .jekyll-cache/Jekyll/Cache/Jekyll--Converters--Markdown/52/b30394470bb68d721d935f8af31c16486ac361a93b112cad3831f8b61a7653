@@ -1,9 +1,4 @@
----
-layout: default
-title: "The White Stripes"
----
-
-<div class="intro">
+I"ý<div class="intro">
     <p id="intro-text"></p>
 </div>
 
@@ -39,7 +34,7 @@ title: "The White Stripes"
         </p>
         <p class="quote">
             <span class="quote-wrapper">
-                <span class="letters">Enough Water</span>
+                <span class="letters">There</span>
             </span>
         </p>
         <!-- <p class="quote quote1">Will</p>
@@ -50,4 +45,7 @@ title: "The White Stripes"
 </div>
 
 <script src="assets/javascript/introText.js"></script>
+
 <script src="assets/javascript/introTextAnimation.js"></script>
+
+:ET

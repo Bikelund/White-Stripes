@@ -12,7 +12,11 @@ body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMac
 
 .title-vertical { margin: 0; padding: 0; margin-left: 12px; }
 
-.quote { font-size: 16vh; margin: 0; padding: 0; text-align: right; }
+.quote { font-size: 16vh; margin: 0; padding: 0; text-align: right; position: relative; overflow: hidden; }
+
+.quote .text-wrapper { position: relative; display: inline-block; padding-top: 0.2em; padding-right: 0.05em; padding-bottom: 0.1em; }
+
+.quote .letter { display: inline-block; line-height: 1em; }
 
 /* Navigation */
 .main-nav { width: 100vh; height: 8vw; position: fixed; background: white; -webkit-transform-origin: left top; -webkit-transform: rotate(-90deg) translateX(-100%); }
@@ -40,7 +44,7 @@ ul { padding: 0; margin: 4vw 0 0 5vh; }
 
 .intro { width: 100vw; height: 100vh; margin: 0; padding: 0; background-color: black; z-index: 10; position: absolute; top: 0; left: 0; opacity: 1; }
 
-#intro-text { color: white; font-size: 12vh; text-align: center; width: 100%; margin: 35vh auto 0; }
+#intro-text { color: white; font-size: 12vh; text-align: center; width: 100%; margin: 35vh auto 0; opacity: 0; }
 
 #intro-text::after { content: "  |||"; color: red; }
 
