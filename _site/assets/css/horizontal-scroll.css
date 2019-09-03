@@ -1,0 +1,23 @@
+html { overflow: hidden; }
+
+body { font-family: "Poppins", sans-serif; font-weight: 200; background: white; box-sizing: border-box; }
+
+::-webkit-scrollbar { width: 1px; height: 1px; }
+
+::-webkit-scrollbar-button { width: 1px; height: 1px; }
+
+.horizontal-scroll-wrapper { position: absolute; display: block; top: 0; left: 0; width: calc(100vw + 1px); max-height: 100vw; margin: 0; padding-top: 1px; overflow-y: auto; overflow-x: hidden; transform: rotate(-90deg) translateY(-100vw); transform-origin: right top; }
+
+.horizontal-scroll-wrapper > div { box-sizing: border-box; display: block; padding: 5px; transform: rotate(90deg); transform-origin: right top; }
+
+.squares { padding: 100vw 0 0 0; }
+
+.squares > div { width: 100vw; height: 100vw; }
+
+.horizontal-scroll-wrapper-home { background-color: rgba(66, 109, 66, 0.664); }
+
+.horizontal-scroll-wrapper-about { background-color: rgba(185, 113, 113, 0.712); }
+
+.box5 { background-color: rgba(185, 172, 113, 0.712); }
+
+/*# sourceMappingURL=horizontal-scroll.css.map */
