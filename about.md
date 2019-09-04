@@ -4,7 +4,10 @@ title: "About The White Stripes"
 ---
 
 <div class="about" id="about">
-    <div id="hero"></div>
+    <div id="hero">
+        <div class="hero--left"></div>
+        <div class="hero--right"></div>
+    </div>
     <div class="about__content-section">
         <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quidem repudiandae. Voluptate dolor quaerat illo perspiciatis veritatis molestias! Ut, accusantium.</strong>
         <p class="content__p1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, iusto.</p>
