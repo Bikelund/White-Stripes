@@ -12,9 +12,9 @@ title: "The White Stripes"
     </div>
     <div class="middle">
         <div class="main-nav">
-            <ul class="nav">
+            <ul class="nav" id="anchor-link">
                 <li><a class="custom-underline" href="#">Home</a></li>
-                <li><a class="custom-underline" href="#">Showcase</a></li>
+                <li><a class="custom-underline" href="#">Horizontal-scroll</a></li>
                 <li><a class="custom-underline" href="#">About</a></li>
             </ul>
             <h1 class="title-horizontal">The White Stripes</h1>
@@ -42,12 +42,9 @@ title: "The White Stripes"
                 <span class="letters">Enough Water</span>
             </span>
         </p>
-        <!-- <p class="quote quote1">Will</p>
-        <p class="quote quote2">There</p>
-        <p class="quote quote3">Be</p>
-        <p class="quote quote4">Enough Water</p> -->
     </div>
 </div>
 
 <script src="assets/javascript/introText.js"></script>
+<script src="assets/javascript/anchor.js"></script>
 <script src="assets/javascript/introTextAnimation.js"></script>

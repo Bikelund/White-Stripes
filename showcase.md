@@ -4,9 +4,46 @@ title: "showcase"
 ---
 
 <div class="horizontal-scroll-wrapper squares">
-  <div class="horizontal-scroll-wrapper-home"><h1>Home</h1></div>
-  <div class="horizontal-scroll-wrapper-about"><h1>About</h1></div>
-  <div class="horizontal-scroll-wrapper-showcase"><h1>Showcase</h1></div>
-  <div class="box4">Four</div>
-  <div class="box5">Five</div>
+  <div class="horizontal-scroll-wrapper-home">
+    {% include_relative index.md %}
 </div>
+  <div class="horizontal-scroll-wrapper-about"><h1>About</h1></div>
+  <div class="horizontal-scroll-wrapper-showcase">
+     <h2 class="showcase-horizontal">Showcase</h2>
+      <div class="wrapper">
+        <div class="wrapper--box1">
+            <h2 class="wrapper--box1--title">The White Stripes</h2>
+                <img class="wrapper--box1--img" src="/assets/images/thewhitestripes.jpg">
+        </div>
+            <div class="wrapper--text1--line"></div>
+                <p class="wrapper--box2--text">This bare-bones debut is the very definition of "less is more." Jack's jagged riffs might have sounded like arena rock, but for the wide-open spaces provided by Meg's off-kilter rhythms. The only thing that was missingÏ on this covers-heavy album was more original material, and that – along with a growing sense of musical adventurousness – completed the White Stripes' distinctive new profile.</p>
+         <div class="wrapper--box3">
+            <h2 class="wrapper--box3--title">De Stijl</h2>
+                <img class="wrapper--box3--img" src="/assets/images/De_Stijl.jpg">
+         </div>
+            <div class="wrapper--text2--line"></div>
+                <p class="wrapper--box4--text">The White Stripes built upon their delightfully minimal combining of improvisational-sounding garage rock and jagged R&B here, on an album which was somehow dedicated to both a Dutch furniture designer and the bluesman Blind Willie McTell. 'De Stijl' was similarly complex, as the White Stripes took bold new lyrical chances even as they branched out into sounds as disparate as cabaret jazz and bubblegum pop.</p> 
+        </div>
+  </div>
+  <div class="horizontal-scroll-wrapper-showcase">
+       <div class="wrapper wrapper-margin-left">
+            <div class="wrapper--box5">
+              <h2 class="wrapper--box5--title">Elephant</h2>
+                 <img class="wrapper--box5--img" src="/assets/images/Elephant.jpg">
+            </div>
+                <div class="wrapper--text3--line"></div>
+                    <p class="wrapper--box6--text">With the triumphant 'Elephant,' the White Stripes bravely eschewed the trappings of their new big-label status. Instead, they went all the way back to the basics. We're talking old equipment, a telescoped timeline of basically two weeks, and no computers during post-production. The result is the White Stripes' very best work, a gutty, unflinching examination of rejection at their moment of widest fame.</p>
+            <div class="wrapper--box7">
+               <h2 class="wrapper--box7--title">White Blood Cells</h2>
+                  <img class="wrapper--box7--img" src="/assets/images/White_Blood_Cells.jpg">
+            </div>
+                <div class="wrapper--text4--line"></div>
+                    <p class="wrapper--box8--text">Less bluesy and more primal, 'White Blood Cells' features a wealth of material from very early in their career. Still, a general narrative of isolation under great scrutiny begins to emerge, and that theme is only bolstered by the claustrophobic album cover image. Even as fame suddenly surrounded them, the White Stripes' ability to mix toughness and tenderness shone through.</p> 
+        </div>
+  </div>
+  <div class="box5">Contact</div>
+</div>
+
+<script src="assets/javascript/introText.js"></script>
+<script src="assets/javascript/anchor.js"></script>
+<script src="assets/javascript/introTextAnimation.js"></script>

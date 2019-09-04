@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>showcase</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <script src="assets/javascript/anime.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="horizontal-scroll-wrapper squares">
+I"¦<div class="horizontal-scroll-wrapper squares">
   <div class="horizontal-scroll-wrapper-home">
     ---
 layout: default
@@ -105,8 +94,4 @@ title: "The White Stripes"
 
 <script src="assets/javascript/introTextAnimation.js"></script>
 
-
-
-   
-  </body>
-</html>
+:ET
