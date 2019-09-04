@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About The White Stripes</title>
-    <link rel="stylesheet" href="/assets/css/about.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="about" id="about">
+I"ÿ<div class="about" id="about">
     <div id="hero"></div>
     <div class="about__content-section">
         <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quidem repudiandae. Voluptate dolor quaerat illo perspiciatis veritatis molestias! Ut, accusantium.</strong>
@@ -28,6 +18,4 @@
 </div>
 <script src="https://kit.fontawesome.com/3e27283071.js"></script>
 
-
-</body>
-</html>
+:ET

@@ -11,13 +11,13 @@ title: "About The White Stripes"
         <p class="content__p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil tempora vitae iste suscipit dolor reprehenderit.</p>
         <div class="contact">
             <h4>Contact</h4>
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fas fa-envelope-open-text"></i></a>
+            <a href="#"><i class="far fa-envelope"></i></a>
         </div>
     </div>
     <div class="about__title-section">
-        <h4>About</h4>
+        <a href="#" class="btn btn__about">About</a>
         <div class="seperator"></div>
     </div>
 </div>

@@ -51,6 +51,7 @@
         height: 50%;
         position: relative;
         top: -10%;
+        text-align: center;
         display: grid;
 
         h4 {
@@ -58,12 +59,41 @@
             color: lighten($bodyColor, 30%);
         }
 
-        i {
-            font-size: 1.4rem;
-            color: $bodyColor;
+        a {
+            display: inline-block;
+            vertical-align: middle;
+            transition: color .1s;
 
-            &:hover {
-                color: invert(lighten($bodyColor, 30%));
+            &:hover i {
+                color: $backgroundColor;
+                background: black;
+                border-radius: 5px;
+                transform: rotate(45deg) scale(.8);
+
+                &::before {
+                    transform: rotate(-45deg) scale(1.5);
+                }
+            }
+        }
+
+        i {
+            display: inline-block;
+            font-size: 1.4em;
+            background: transparent;
+            width: 60px;
+            height: 60px;
+            color: $bodyColor;
+            border-radius: 50%;
+            line-height: 60px;
+            margin: 0 10px 10px 10px;
+            transition-duration: .3s;
+
+            &::before {
+                transition-duration: .3s;
+            }
+
+            &.fab::before, &.far::before {
+                display: block
             }
         }
     }
@@ -75,11 +105,37 @@
     justify-content: flex-end;
     align-items: center;
 
-    h4 {
+    .btn__about {
         font-size: 1rem;
         font-weight: 100;
         color: lighten($bodyColor, 30%);
-        margin-right: 20%;
+        margin: 20% 5%;
+        padding: 15px 32px;
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+        text-decoration: none;
+        display:inline-block;
+
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 0%;
+            left: 0px;
+            width: 100%;
+            height: 1px;
+            background: lighten($bodyColor, 60%);
+            display: block;
+
+            transform-origin: right top;
+            transform: scale(0, 1);
+            transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+        }
+
+        &:hover::before {
+            transform-origin: left top;
+            transform: scale(1, 1);
+        }
     }
 
     .seperator {
