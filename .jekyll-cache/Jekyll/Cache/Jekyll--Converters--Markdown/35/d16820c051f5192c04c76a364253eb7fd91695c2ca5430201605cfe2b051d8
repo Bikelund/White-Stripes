@@ -1,4 +1,4 @@
-I"Ÿ<div class="intro">
+I"–<div class="intro">
     <p id="intro-text"></p>
 </div>
 
@@ -9,7 +9,7 @@
         <div class="main-nav">
             <ul class="nav" id="anchor-link">
                 <li><a class="custom-underline" href="#">Home</a></li>
-                <li><a class="custom-underline" href="#">horizontal-scroll</a></li>
+                <li><a class="custom-underline" href="#">Showcase</a></li>
                 <li><a class="custom-underline" href="#">About</a></li>
             </ul>
             <h1 class="title-horizontal">The White Stripes</h1>

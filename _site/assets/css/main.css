@@ -19,7 +19,14 @@ body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMac
 .quote .letter { display: inline-block; line-height: 1em; }
 
 /* Navigation */
-.main-nav { width: 100vh; height: 8vw; position: fixed; background: white; -webkit-transform-origin: left top; -webkit-transform: rotate(-90deg) translateX(-100%); }
+.main-nav { width: 100vh; height: 8vw; position: fixed; background: white; transition: all 1s; -webkit-transform-origin: left top; -webkit-transform: rotate(-90deg) translateX(-100%); }
+
+/* Navigation left */
+.main-nav-left { animation-name: menuTransition; animation-duration: 2s; }
+
+/* Navigation animation */
+@keyframes menuTransition { 0% { left: 32vw; }
+  100% { left: 0; } }
 
 .main-nav:after { content: ""; background: black; position: absolute; bottom: 0; left: 4vh; height: 1px; width: 91vh; }
 

@@ -9,9 +9,13 @@ anime.timeline({})
     easing: 'easeInOutCubic',
 }).add({
     targets: '.intro',
-    translateY: -1000,
-    opacity: [1,0],
+    background: 'rgba(0, 0, 0, 0)',
     duration: 1000,
+    easing: 'easeInCubic',
+}).add({
+    targets: '.intro',
+    translateY: -1000,
+    duration: 500,
     easing: 'easeInOutCubic',
 });
 

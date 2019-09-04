@@ -14,7 +14,7 @@ title: "The White Stripes"
         <div class="main-nav">
             <ul class="nav" id="anchor-link">
                 <li><a class="custom-underline" href="#">Home</a></li>
-                <li><a class="custom-underline" href="#">Horizontal-scroll</a></li>
+                <li><a class="custom-underline" href="#">Showcase</a></li>
                 <li><a class="custom-underline" href="#">About</a></li>
             </ul>
             <h1 class="title-horizontal">The White Stripes</h1>
