@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About The White Stripes</title>
-    <link rel="stylesheet" href="/assets/css/about.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="about-container" id="about">
+I"¬<div class="about-container" id="about">
     <div class="album-wp">
         <figure></figure>
     </div>
@@ -33,6 +23,4 @@
 </div>
 <script src="https://kit.fontawesome.com/3e27283071.js"></script>
 
-
-</body>
-</html>
+:ET
