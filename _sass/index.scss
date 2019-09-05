@@ -1,60 +1,17 @@
-// @import url("https://fonts.googleapis.com/css?family=Poppins:200,400,500,900i&display=swap");
-// @import url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
 
-// html {
-//   overflow: hidden;
-// }
+$finalHeight: 100vw;
+$finalWidth: 100vw;
+$scrollBarHeight: 0px;
 
-// body {
-//   font-family: "Poppins", sans-serif;
-//   font-weight: 200;
-//   background: white;
-//   box-sizing: border-box;
-// }
-// $finalHeight: 100vw;
-// $finalWidth: 100vw;
-// $scrollBarHeight: 1px;
+::-webkit-scrollbar {
+  width: $scrollBarHeight;
+  height: $scrollBarHeight;
+}
 
-// ::-webkit-scrollbar {
-//   width: $scrollBarHeight;
-//   height: $scrollBarHeight;
-// }
-
-// ::-webkit-scrollbar-button {
-//   width: $scrollBarHeight;
-//   height: $scrollBarHeight;
-// }
-
-// .horizontal-scroll-wrapper {
-//   position: absolute;
-//   display: block;
-//   top: 0;
-//   left: 0;
-//   width: calc(#{$finalHeight} + #{$scrollBarHeight});
-//   max-height: $finalWidth;
-//   margin: 0;
-//   padding-top: $scrollBarHeight;
-//   overflow-y: auto;
-//   overflow-x: hidden;
-//   transform: rotate(-90deg) translateY(-$finalHeight);
-//   transform-origin: right top;
-// }
-
-// .horizontal-scroll-wrapper > div {
-//   box-sizing: border-box;
-//   display: block;
-//   transform: rotate(90deg);
-//   transform-origin: right top;
-// }
-
-// .squares {
-//   padding: $finalHeight 0 0 0;
-// }
-
-// .squares > div {
-//   width: $finalHeight;
-//   height: $finalHeight;
-// }
+::-webkit-scrollbar-button {
+  width: $scrollBarHeight;
+  height: $scrollBarHeight;
+}
 
 .horizontal-scroll-wrapper{
     display: grid;
