@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>The White Stripes - </title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <script src="assets/javascript/anime.min.js"></script>
-  </head>
-  <body>
-    <div class="horizontal-scroll-wrapper squares">
+I"ö<div class="horizontal-scroll-wrapper squares">
     <div class="horizontal-scroll-wrapper-home">
        
 <div class="intro">
@@ -61,8 +50,7 @@
 <div class="flex-container">
   <div class="flex-left">
     <div class="showcase-horizontal">
-    <h2 class="showcase">Showcase</h2>
-     </div>
+    <h2 class="showcase-horizontal">Showcase</h2>
   </div>
   <div class="flex-right">
   <div class="wrapper">
@@ -129,18 +117,10 @@
 </div>
 
 <script src="assets/javascript/introText.js"></script>
-
 <script src="assets/javascript/anchor.js"></script>
-
 <script src="assets/javascript/introTextAnimation.js"></script>
-
 <script src="assets/javascript/showcaseAnimation.js"></script>
-
 <script src="https://kit.fontawesome.com/3e27283071.js"></script>
-
 <script src="assets/javascript/aboutAnim.js"></script>
-
-
-  </body>
-</html>
-
+</div>
+:ET

@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>The White Stripes - </title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <script src="assets/javascript/anime.min.js"></script>
-  </head>
-  <body>
-    <div class="horizontal-scroll-wrapper squares">
-    <div class="horizontal-scroll-wrapper-home">
+I"÷<div class="horizontal-scroll-wrapper squares">
+    <div class="horizontal-scroll-wrapper-home ">
        
 <div class="intro">
     <p id="intro-text"></p>
@@ -140,7 +129,4 @@
 
 <script src="assets/javascript/aboutAnim.js"></script>
 
-
-  </body>
-</html>
-
+:ET
