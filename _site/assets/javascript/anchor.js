@@ -1,4 +1,4 @@
-/*
+/* 
     Creates a delay when clicking on menubar
 */
 
@@ -17,5 +17,4 @@ document.getElementById("anchor-link").onclick = function(event) {
     }
 }
 
-/* document.getElementById(link).style.display = "flex";
-event.target.classList.add("active-name");  */
+
