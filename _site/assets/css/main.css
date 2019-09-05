@@ -1,4 +1,6 @@
-body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; margin: 0; padding: 0; font-family: 'Poppins', sans-serif; overflow-y: hidden; }
+body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; margin: 0; padding: 0; font-family: 'Poppins', sans-serif; overflow-y: hidden; width: fit-content; }
+
+html { scroll-behavior: smooth; width: fit-content; }
 
 ::-webkit-scrollbar { width: 0px; height: 0px; }
 
@@ -15,7 +17,7 @@ body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMac
 .right { width: 60vw; height: 100vh; background-color: white; overflow: hidden; }
 
 /* Navigation */
-.main-nav { width: 100vh; height: 8vw; position: fixed; background: white; -webkit-transform-origin: left top; -webkit-transform: rotate(-90deg) translateX(-100%); }
+.main-nav { position: fixed; left: 0; width: 100vh; height: 8vw; background: white; -webkit-transform-origin: left top; -webkit-transform: rotate(-90deg) translateX(-100%); }
 
 .main-nav:after { content: ""; background: black; position: absolute; bottom: 0; left: 4vh; height: 1px; width: 91vh; }
 
@@ -23,7 +25,7 @@ ul.nav li { margin-right: 5vh; float: left; height: 100%; line-height: 45px; }
 
 .title-horizontal { float: right; margin: 0; padding: 0; margin-right: 5vh; }
 
-.title-vertical { margin: 0; padding: 0; margin-left: 12px; }
+.title-vertical { margin: 0; padding: 0; margin-left: 12px; position: absolute; }
 
 a { text-decoration: none; color: black; }
 
@@ -39,7 +41,7 @@ a { text-decoration: none; color: black; }
 
 li { list-style: none; }
 
-ul { padding: 0; margin: 4vw 0 0 5vh; }
+ul { margin: 0; padding: 4vw 0 0 5vh; }
 
 .quote { font-size: 16vh; margin: 0; padding: 0; text-align: right; }
 
@@ -130,11 +132,15 @@ ul { padding: 0; margin: 4vw 0 0 5vh; }
 
 #hero { position: relative; overflow: hidden; width: auto; height: 100vh; background: center/cover no-repeat url("/assets/images/the-white-stripes.jpg"); }
 
+.txt-anim { visibility: hidden; }
+
+.is-visible { visibility: visible; }
+
 .about__content-section { padding-top: 2rem; width: 100%; display: grid; grid-template-areas: "strong strong strong" "p1     p2     contact"; grid-gap: 15px; }
 
 .about__content-section strong { grid-area: strong; grid-column: 1 / -1; font-size: 2rem; }
 
-.about__content-section .content__p1, .about__content-section .content__p2 { width: 80%; font-size: .8rem; color: #4d4d4d; }
+.about__content-section .content__p1, .about__content-section .content__p2 { width: 80%; font-size: .8rem; color: #4d4d4d; visibility: hidden; }
 
 .about__content-section .content__p1 { grid-area: p1; }
 
