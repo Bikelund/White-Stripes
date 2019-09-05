@@ -1,22 +1,35 @@
 /* Showcase */
+.flex-container{
+  display:flex;
+  width: 100vw;
+  height: 100vh;
+}
+.flex-left{
+  width: 10vw;
+  height: 100vh;
+}
+.flex-right{
+  width: 80vw;
+  height: 100vh;
+}
 
 .showcase-horizontal{
-  position: fixed;
-  -webkit-transform: rotate(-90deg);
+  margin-left: 5%;
+  // position: fixed;
+  -webkit-transform-origin: left top;
+  -webkit-transform:rotate(-90deg) translateX(-100%);
   letter-spacing: 0.06em;
-  font-size: 8em;
+  font-size: 8.5em;
   font-weight: 900;
-  margin: 0;
-  padding: 0;
-  left: -45%;
-  height: 100vw;
+  width: 100vh;
+  text-align: -webkit-center;
 }
 
 .wrapper {
-  height: 100vh;
+  height: 95vh;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-auto-rows: 1fr 1fr;
+  grid-auto-rows: auto auto;
   padding-top: 5%;
 }
 
@@ -27,7 +40,6 @@
   grid-row-start: 1;
   grid-row-end: 2;
   position: relative;
-  
 }
 
 .wrapper--box1--img, .wrapper--box3--img, .wrapper--box5--img, .wrapper--box7--img{
@@ -40,7 +52,7 @@
 .wrapper--box1--title, .wrapper--box3--title, .wrapper--box5--title, .wrapper--box7--title{
   display: block;
   position: absolute;
-  left: -40%;
+  left: -5em !important; 
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -53,8 +65,7 @@
 }
 
 .wrapper--box1--title{
-  left: -90%;
-  top: 20%;
+  top: 1.3em;
   font-size: 4em;
 }
 
@@ -70,8 +81,8 @@
   background: black;
   height: 1px;
   width: 15vh;
-  margin-top: 65%;
-  margin-left: -7%;
+  margin-top: 9em;
+  margin-left: 2em;
 }
 
 .wrapper--box2--text {
@@ -90,7 +101,7 @@
 }
 
 .wrapper--box3--title {
-  left: -45%;
+  left: -2em !important; 
 }
 
 .wrapper--text2--line {
@@ -113,6 +124,9 @@
 
 
 /* Showcase page2 */
+.wrapper-margin-left{
+}
+
 .wrapper--box5--title, .wrapper--box7--title {
   -webkit-transform: rotate(90deg) translateY(20%);
 }
@@ -123,23 +137,24 @@
   grid-row-start: 1;
   grid-row-end: 2;
   position: relative;
-  margin-top: 5%;
+  // margin-top: 5%;
   // margin-left: -15%;
 }
 
 .wrapper--box5--title{
-  left: 46%;
+  left: 2.5em !important; 
 }
 
 .wrapper--text3--line {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
+  
 }
 
 .wrapper--text3--line::before {
-  margin-top: 120%;
-  margin-left: 10%;
+  margin-top: 13em;
+    margin-left: 2em;
 }
 
 .wrapper--box6--text {
@@ -147,7 +162,7 @@
   grid-column-end: 3;
   grid-row-start: 1;
   width: 100%;
-  margin-top: 10%;
+  margin-top: 7em;
 }
 
 /* White Blood Cells */
@@ -160,7 +175,7 @@
 
 .wrapper--box7--title {
   font-size: 4em;
-  left: 26%;
+  left: 1.1em !important; 
   width: 37vw;
 }
 
@@ -180,6 +195,7 @@
   grid-column-end: 5;
   grid-row-start: 2;
   width: 100%;
+  margin-top: 4em;
 }
 
 /* Showcase Animation */
