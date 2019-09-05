@@ -3,30 +3,20 @@ layout: default
 title: "The White Stripes"
 ---
 
-<div class="intro">
-    <p id="intro-text"></p>
-</div>
-
-<div class="index-container">
-    <div class="left">
+<div class="horizontal-scroll-wrapper squares">
+    <div class="horizontal-scroll-wrapper-home">
+       {% include_relative home.md %}
     </div>
-    <div class="middle">
-        <div class="main-nav">
-            <ul class="nav">
-                <li><a class="custom-underline" href="#">Home</a></li>
-                <li><a class="custom-underline" href="#">Showcase</a></li>
-                <li><a class="custom-underline" href="#">About</a></li>
-            </ul>
-            <h1 class="title-horizontal">The White Stripes</h1>
-        </div>
-    </div>
-    <div class="right">
-        <h1 class="title-vertical">The White Stripes</h1>
-        <p class="quote quote1">Will</p>
-        <p class="quote quote2">There</p>
-        <p class="quote quote3">Be</p>
-        <p class="quote quote4">Enough Water</p>
-    </div>
+  <div class="horizontal-scroll-wrapper-showcase">
+       {% include_relative showcase.md %}
+  </div>
+  <div class="horizontal-scroll-wrapper-about">
+      
+  </div>
+  <div class="box5">Contact</div>
 </div>
 
 <script src="assets/javascript/introText.js"></script>
+<script src="assets/javascript/anchor.js"></script>
+<script src="assets/javascript/introTextAnimation.js"></script>
+<script src="assets/javascript/showcaseAnimation.js"></script>
