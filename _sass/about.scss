@@ -31,12 +31,16 @@ $bodyColor: #000000;
     background: center / cover no-repeat url('/assets/images/the-white-stripes.jpg');
 }
 
-// .txt-anim {
-//     visibility: hidden;
-// }
+.txt-anim {
+    opacity: 0;
+    transform: translate(0, 50%);
+    transition: all .8s ease-in-out;
+}
 
 .is-visible {
-    visibility: visible;
+    // visibility: visible;
+    opacity: 1;
+    transform: translate(0, 0);
 }
 
 .about__content-section {

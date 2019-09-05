@@ -6,7 +6,9 @@
 
 #hero { position: relative; overflow: hidden; width: auto; height: 100vh; background: center/cover no-repeat url("/assets/images/the-white-stripes.jpg"); }
 
-.is-visible { visibility: visible; }
+.txt-anim { opacity: 0; transform: translate(0, 50%); transition: all .8s ease-in-out; }
+
+.is-visible { opacity: 1; transform: translate(0, 0); }
 
 .about__content-section { padding-top: 2rem; width: 100%; display: grid; grid-template-areas: "strong strong strong" "p1     p2     contact"; grid-gap: 15px; }
 
