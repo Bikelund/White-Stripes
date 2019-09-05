@@ -1,67 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,400,500,900i&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
-
-html {
-  overflow: hidden;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  background: white;
-  box-sizing: border-box;
-}
-$finalHeight: 100vw;
-$finalWidth: 100vw;
-$scrollBarHeight: 1px;
-
-::-webkit-scrollbar {
-  width: $scrollBarHeight;
-  height: $scrollBarHeight;
-}
-
-::-webkit-scrollbar-button {
-  width: $scrollBarHeight;
-  height: $scrollBarHeight;
-}
-
-.horizontal-scroll-wrapper {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  width: calc(#{$finalHeight} + #{$scrollBarHeight});
-  max-height: $finalWidth;
-  margin: 0;
-  padding-top: $scrollBarHeight;
-  overflow-y: auto;
-  overflow-x: hidden;
-  transform: rotate(-90deg) translateY(-$finalHeight);
-  transform-origin: right top;
-}
-
-.horizontal-scroll-wrapper > div {
-  box-sizing: border-box;
-  display: block;
-  transform: rotate(90deg);
-  transform-origin: right top;
-}
-
-.squares {
-  padding: $finalHeight 0 0 0;
-}
-
-.squares > div {
-  width: $finalHeight;
-  height: $finalHeight;
-}
-.horizontal-scroll-wrapper-about {
-  background-color: rgba(185, 113, 113, 0.712);
-}
-.box5 {
-  background-color: rgba(185, 172, 113, 0.712);
-}
-
 /* Showcase */
 
 .showcase-horizontal{
@@ -113,6 +49,7 @@ $scrollBarHeight: 1px;
   letter-spacing: 0.06em;
   font-size: 5em;
   font-weight: 900;
+  z-index: 1;
 }
 
 .wrapper--box1--title{
@@ -243,4 +180,32 @@ $scrollBarHeight: 1px;
   grid-column-end: 5;
   grid-row-start: 2;
   width: 100%;
+}
+
+/* Showcase Animation */
+.animation-img{
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: all 1.2s ease-out;
+}
+
+.fadeInImg{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.showcase-horizontal .letter{
+  display: inline-block;
+  line-height: 1em;
+}
+
+.animation-text{
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1.2s ease-out;
+}
+
+.fadeOutText{
+  opacity: 1;
+  transform: translateY(0);
 }
