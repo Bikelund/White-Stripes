@@ -56,7 +56,7 @@ ul { padding: 0; margin: 4vw 0 0 5vh; }
 
 .flex-right { width: 80vw; height: 100vh; }
 
-.showcase-horizontal { margin-left: 5%; position: fixed; -webkit-transform-origin: left top; -webkit-transform: rotate(-90deg) translateX(-100%); letter-spacing: 0.06em; font-size: 8.5em; font-weight: 900; width: 100vh; text-align: -webkit-center; }
+.showcase-horizontal { margin-left: 5%; -webkit-transform-origin: left top; -webkit-transform: rotate(-90deg) translateX(-100%); letter-spacing: 0.06em; font-size: 8.5em; font-weight: 900; width: 100vh; text-align: -webkit-center; }
 
 .wrapper { height: 95vh; display: grid; grid-template-columns: repeat(8, 1fr); grid-auto-rows: auto auto; padding-top: 5%; }
 
