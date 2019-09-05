@@ -1,44 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,400,500,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
 body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; margin: 0; padding: 0; font-family: 'Poppins', sans-serif; }
+
+html { overflow: hidden; }
+
+body { font-family: "Poppins", sans-serif; font-weight: 200; background: white; box-sizing: border-box; }
+
+::-webkit-scrollbar { width: 1px; height: 1px; }
+
+::-webkit-scrollbar-button { width: 1px; height: 1px; }
+
+.horizontal-scroll-wrapper { position: absolute; display: block; top: 0; left: 0; width: calc(100vw + 1px); max-height: 100vw; margin: 0; padding-top: 1px; overflow-y: auto; overflow-x: hidden; transform: rotate(-90deg) translateY(-100vw); transform-origin: right top; }
+
+.horizontal-scroll-wrapper > div { box-sizing: border-box; display: block; transform: rotate(90deg); transform-origin: right top; }
+
+.squares { padding: 100vw 0 0 0; }
+
+.squares > div { width: 100vw; height: 100vw; }
+
+.horizontal-scroll-wrapper-about { background-color: rgba(185, 113, 113, 0.712); }
+
+.box5 { background-color: rgba(185, 172, 113, 0.712); }
 
 .index-container { display: flex; }
 
-.left { width: 32vw; height: 100vh; background-image: url(/assets/cosmonaut_rob_jones.jpg); background-size: cover; }
+.left { width: 32vw; height: 100vh; background-image: url(/assets/images/cosmonaut_rob_jones.jpg); background-size: cover; }
 
 .middle { width: 8vw; height: 100vh; background-color: white; }
 
 .right { width: 60vw; height: 100vh; background-color: white; overflow: hidden; }
 
-.title-horizontal { float: right; margin: 0; padding: 0; margin-right: 5vh; }
-
-.title-vertical { margin: 0; padding: 0; margin-left: 12px; }
-
-.quote { font-size: 16vh; margin: 0; padding: 0; text-align: right; position: relative; overflow: hidden; }
-
-.quote .text-wrapper { position: relative; display: inline-block; padding-top: 0.2em; padding-right: 0.05em; padding-bottom: 0.1em; }
-
-.quote .letter { display: inline-block; line-height: 1em; }
-
 /* Navigation */
-.main-nav { width: 100vh; height: 8vw; position: fixed; background: white; transition: all 1s; -webkit-transform-origin: left top; -webkit-transform: rotate(-90deg) translateX(-100%); }
-
-/* Navigation left */
-.main-nav-left { animation-name: menuTransition; animation-duration: 2s; }
-
-/* Navigation animation */
-@keyframes menuTransition { 0% { left: 32vw; }
-  100% { left: 0; } }
+.main-nav { width: 100vh; height: 8vw; position: fixed; background: white; -webkit-transform-origin: left top; -webkit-transform: rotate(-90deg) translateX(-100%); }
 
 .main-nav:after { content: ""; background: black; position: absolute; bottom: 0; left: 4vh; height: 1px; width: 91vh; }
 
 ul.nav li { margin-right: 5vh; float: left; height: 100%; line-height: 45px; }
 
-li { list-style: none; }
+.title-horizontal { float: right; margin: 0; padding: 0; margin-right: 5vh; }
 
-ul { padding: 0; margin: 4vw 0 0 5vh; }
+.title-vertical { margin: 0; padding: 0; margin-left: 12px; }
 
-.nav a { text-decoration: none; color: black; }
+a { text-decoration: none; color: black; }
 
-/* Menu bar underline */
 .custom-underline { position: relative; }
 
 .custom-underline:hover, .custom-underline:focus, .custom-underline:active { color: black; text-decoration: none; }
@@ -49,10 +53,83 @@ ul { padding: 0; margin: 4vw 0 0 5vh; }
 
 .nav li:hover .custom-underline::after { width: 100%; left: 0%; }
 
+li { list-style: none; }
+
+ul { padding: 0; margin: 4vw 0 0 5vh; }
+
+.quote { font-size: 16vh; margin: 0; padding: 0; text-align: right; }
+
 .intro { width: 100vw; height: 100vh; margin: 0; padding: 0; background-color: black; z-index: 10; position: absolute; top: 0; left: 0; opacity: 1; }
 
 #intro-text { color: white; font-size: 12vh; text-align: center; width: 100%; margin: 35vh auto 0; opacity: 0; }
 
 #intro-text::after { content: "  |||"; color: red; }
+
+/* Showcase */
+.showcase-horizontal { position: fixed; -webkit-transform: rotate(-90deg); letter-spacing: 0.06em; font-size: 8em; font-weight: 900; margin: 0; padding: 0; left: -45%; width: 100vw; }
+
+.wrapper { height: 100vh; display: grid; grid-template-columns: repeat(8, 1fr); grid-auto-rows: 1fr 1fr; padding-top: 5%; }
+
+/* Best of */
+.wrapper--box1 { grid-column-start: 3; grid-column-end: 5; grid-row-start: 1; grid-row-end: 2; position: relative; }
+
+.wrapper--box1--img, .wrapper--box3--img, .wrapper--box5--img, .wrapper--box7--img { width: 22vw; -webkit-box-shadow: 13px 19px 21px -8px rgba(79, 70, 79, 0.96); -moz-box-shadow: 13px 19px 21px -8px rgba(79, 70, 79, 0.96); box-shadow: 13px 19px 21px -8px rgba(79, 70, 79, 0.96); }
+
+.wrapper--box1--title, .wrapper--box3--title, .wrapper--box5--title, .wrapper--box7--title { display: block; position: absolute; left: -40%; -ms-transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); -webkit-transform: rotate(-90deg) translateX(-10%); font-family: "Abril Fatface", cursive; letter-spacing: 0.06em; font-size: 5em; font-weight: 900; z-index: 1; }
+
+.wrapper--box1--title { left: -90%; top: 20%; font-size: 4em; }
+
+.wrapper--text1--line { grid-column-start: 5; grid-column-end: 6; grid-row-start: 1; }
+
+.wrapper--text1--line::before, .wrapper--text2--line::before, .wrapper--text3--line::before, .wrapper--text4--line::before { content: ""; display: inline-block; background: black; height: 1px; width: 15vh; margin-top: 65%; margin-left: -7%; }
+
+.wrapper--box2--text { grid-column-start: 6; grid-column-end: 8; grid-row-start: 1; width: 100%; }
+
+/* De Stijl */
+.wrapper--box3 { grid-column-start: 7; grid-column-end: 9; grid-row-start: 2; position: relative; }
+
+.wrapper--box3--title { left: -45%; }
+
+.wrapper--text2--line { grid-column-start: 6; grid-column-end: 7; grid-row-start: 2; }
+
+.wrapper--text2--line::before { margin-top: 65%; margin-left: 8%; }
+
+.wrapper--box4--text { grid-column-start: 4; grid-column-end: 6; grid-row-start: 2; width: 100%; }
+
+/* Showcase page2 */
+.wrapper--box5--title, .wrapper--box7--title { -webkit-transform: rotate(90deg) translateY(20%); }
+
+/* Elephant */
+.wrapper--box5 { grid-column-start: 4; grid-column-end: 6; grid-row-start: 1; grid-row-end: 2; position: relative; margin-top: 5%; }
+
+.wrapper--box5--title { left: 46%; }
+
+.wrapper--text3--line { grid-column-start: 3; grid-column-end: 4; grid-row-start: 1; }
+
+.wrapper--text3--line::before { margin-top: 120%; margin-left: 10%; }
+
+.wrapper--box6--text { grid-column-start: 1; grid-column-end: 3; grid-row-start: 1; width: 100%; margin-top: 10%; }
+
+/* White Blood Cells */
+.wrapper--box7 { grid-column-start: 6; grid-column-end: 8; grid-row-start: 2; position: relative; }
+
+.wrapper--box7--title { font-size: 4em; left: 26%; width: 37vw; }
+
+.wrapper--text4--line { grid-column-start: 5; grid-column-end: 6; grid-row-start: 2; }
+
+.wrapper--text4--line::before { margin-top: 65%; margin-left: 8%; }
+
+.wrapper--box8--text { grid-column-start: 3; grid-column-end: 5; grid-row-start: 2; width: 100%; }
+
+/* Showcase Animation */
+.animation-img { opacity: 0; transform: translateY(-50px); transition: all 1.2s ease-out; }
+
+.fadeInImg { opacity: 1; transform: translateY(0); }
+
+.showcase-horizontal .letter { display: inline-block; line-height: 1em; }
+
+.animation-text { opacity: 0; transform: translateY(50px); transition: all 1.2s ease-out; }
+
+.fadeOutText { opacity: 1; transform: translateY(0); }
 
 /*# sourceMappingURL=main.css.map */

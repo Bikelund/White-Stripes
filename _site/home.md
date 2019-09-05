@@ -1,7 +1,7 @@
-I"–<div class="intro">
-    <p id="intro-text"></p>
-</div>
 
+<div class="intro">
+    <p id="intro-text"></p>
+    </div>
 <div class="index-container">
     <div class="left">
     </div>
@@ -38,12 +38,5 @@
             </span>
         </p>
     </div>
-</div>
+ </div>
 
-<script src="assets/javascript/introText.js"></script>
-
-<script src="assets/javascript/anchor.js"></script>
-
-<script src="assets/javascript/introTextAnimation.js"></script>
-
-:ET
