@@ -11,9 +11,7 @@ function fadeInImg() {
 
 function isElementInViewport(el) {
   let rect = el.getBoundingClientRect();
-
   return rect.left + rect.width / 2 < window.innerWidth;
-
 }
 
 if (window.addEventListener) {
@@ -28,7 +26,7 @@ function showcaseTitleAnimation() {
   let text = document.querySelectorAll(".showcase-horizontal");
   text.forEach(function(text) {
     if (isElementInViewport(text) && !showcaseTitleAnimationHasPlayed) {
-      showcaseTitleAnimationHasPlayed = true;
+      showcaseTitleAnimationHasPlayed = true
       text.innerHTML = text.textContent.replace(
         /\S/g,
         "<span class='letter'>$&</span>"
