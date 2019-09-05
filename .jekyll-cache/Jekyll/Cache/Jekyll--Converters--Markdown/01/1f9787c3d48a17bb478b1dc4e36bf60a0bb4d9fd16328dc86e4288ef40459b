@@ -1,9 +1,4 @@
----
-layout: about
-title: "About The White Stripes"
----
-
-<div class="about-container" id="about">
+I"?<div class="about-container" id="about">
     <div class="album-wp">
         <figure></figure>
     </div>
@@ -27,4 +22,9 @@ title: "About The White Stripes"
     </div>
 </div>
 <script src="https://kit.fontawesome.com/3e27283071.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+
 <script src="assets/javascript/aboutAnim.js"></script>
+
+:ET
