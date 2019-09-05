@@ -11,9 +11,7 @@ function fadeInImg() {
 
 function isElementInViewport(el) {
   let rect = el.getBoundingClientRect();
-
   return rect.left + rect.width / 2 < window.innerWidth;
-
 }
 
 if (window.addEventListener) {
