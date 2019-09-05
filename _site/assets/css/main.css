@@ -136,11 +136,15 @@ ul { padding: 0; margin: 4vw 0 0 5vh; }
 
 #hero { position: relative; overflow: hidden; width: auto; height: 100vh; background: center/cover no-repeat url("/assets/images/the-white-stripes.jpg"); }
 
+.txt-anim { visibility: hidden; }
+
+.is-visible { visibility: visible; }
+
 .about__content-section { padding-top: 2rem; width: 100%; display: grid; grid-template-areas: "strong strong strong" "p1     p2     contact"; grid-gap: 15px; }
 
 .about__content-section strong { grid-area: strong; grid-column: 1 / -1; font-size: 2rem; }
 
-.about__content-section .content__p1, .about__content-section .content__p2 { width: 80%; font-size: .8rem; color: #4d4d4d; }
+.about__content-section .content__p1, .about__content-section .content__p2 { width: 80%; font-size: .8rem; color: #4d4d4d; visibility: hidden; }
 
 .about__content-section .content__p1 { grid-area: p1; }
 

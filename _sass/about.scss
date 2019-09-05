@@ -1,3 +1,5 @@
+$backgroundColor: #ffffff;
+$bodyColor: #000000;
 
 .album-wp {
     position: absolute;
@@ -29,6 +31,14 @@
     background: center / cover no-repeat url('/assets/images/the-white-stripes.jpg');
 }
 
+.txt-anim {
+    visibility: hidden;
+}
+
+.is-visible {
+    visibility: visible;
+}
+
 .about__content-section {
     padding-top: 2rem;
     width: 100%;
@@ -48,6 +58,7 @@
         width: 80%;
         font-size: .8rem;
         color: lighten($bodyColor, 30%);
+        visibility: hidden;
     }
 
     .content__p1 {
