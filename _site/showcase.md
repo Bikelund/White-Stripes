@@ -1,6 +1,6 @@
 
 
-<div class="flex-container">
+<div class="flex-container" id="showcase">
   <div class="flex-left">
     <div class="showcase-horizontal">
     <h2 class="showcase">Showcase</h2>
