@@ -1,54 +1,10 @@
-body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; margin: 0; padding: 0; font-family: 'Poppins', sans-serif; }
-
-.index-container { display: flex; }
-
-.left { width: 32vw; height: 100vh; background-image: url(/assets/cosmonaut_rob_jones.jpg); background-size: cover; }
-
-.middle { width: 8vw; height: 100vh; background-color: white; }
-
-.right { width: 60vw; height: 100vh; background-color: white; overflow: hidden; }
-
-.title-horizontal { float: right; margin: 0; padding: 0; margin-right: 5vh; }
-
-.title-vertical { margin: 0; padding: 0; margin-left: 12px; }
-
-.quote { font-size: 16vh; margin: 0; padding: 0; text-align: right; }
-
-/* Navigation */
-.main-nav { width: 100vh; height: 8vw; position: fixed; background: white; -webkit-transform-origin: left top; -webkit-transform: rotate(-90deg) translateX(-100%); }
-
-.main-nav:after { content: ""; background: black; position: absolute; bottom: 0; left: 4vh; height: 1px; width: 91vh; }
-
-ul.nav li { margin-right: 5vh; float: left; height: 100%; line-height: 45px; }
-
-li { list-style: none; }
-
-ul { padding: 0; margin: 4vw 0 0 5vh; }
-
-.nav a { text-decoration: none; color: black; }
-
-/* Menu bar underline */
-.custom-underline { position: relative; }
-
-.custom-underline:hover, .custom-underline:focus, .custom-underline:active { color: black; text-decoration: none; }
-
-.custom-underline::after { content: ""; position: absolute; }
-
-.nav .custom-underline::after { top: 100%; height: 2px; width: 0%; left: 50%; background-color: red; transition: all .6s; transform-origin: 0 0; }
-
-.nav li:hover .custom-underline::after { width: 100%; left: 0%; }
-
-.intro { width: 100vw; height: 100vh; margin: 0; padding: 0; background-color: black; z-index: 10; position: absolute; top: 0; left: 0; opacity: 0; }
-
-#intro-text { color: white; font-size: 12vh; text-align: center; width: 100%; margin: 35vh auto 0; }
-
 .album-wp { position: absolute; top: 72vh; left: 20%; min-width: 15rem; height: auto; z-index: 10; }
 
-.album-wp figure { width: 100%; height: 12rem; background: center/contain no-repeat url("/assets/the-white-stripes-wallpapers.jpg"); }
+.album-wp figure { width: 100%; height: 12rem; background: center/contain no-repeat url("/assets/images/the-white-stripes-wallpapers.jpg"); }
 
 .about { display: grid; grid-template-columns: 32% 2fr 10%; grid-gap: 20px; overflow: visible; }
 
-#hero { position: relative; overflow: hidden; width: auto; height: 100vh; background: center/cover no-repeat url("/assets/the-white-stripes.jpg"); }
+#hero { position: relative; overflow: hidden; width: auto; height: 100vh; background: center/cover no-repeat url("/assets/images/the-white-stripes.jpg"); }
 
 .about__content-section { padding-top: 2rem; width: 100%; display: grid; grid-template-areas: "strong strong strong" "p1     p2     contact"; grid-gap: 15px; }
 

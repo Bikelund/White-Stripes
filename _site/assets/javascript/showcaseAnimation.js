@@ -11,7 +11,8 @@ function fadeInImg() {
 
 function isElementInViewport(el) {
   let rect = el.getBoundingClientRect();
-  return !(rect.left > innerWidth && rect.right < 0);
+
+  return rect.left + rect.width / 2 < window.innerWidth;
 
 }
 
@@ -21,17 +22,19 @@ if (window.addEventListener) {
   addEventListener("scroll", fadeInImg, false);
 }
 
+var showcaseTitleAnimationHasPlayed = false;
 /* Showcase tittle Animation */
 function showcaseTitleAnimation() {
   let text = document.querySelectorAll(".showcase-horizontal");
   text.forEach(function(text) {
-    if (isElementInViewport(text)) {
+    if (isElementInViewport(text) && !showcaseTitleAnimationHasPlayed) {
+      showcaseTitleAnimationHasPlayed = true;
       text.innerHTML = text.textContent.replace(
         /\S/g,
         "<span class='letter'>$&</span>"
       );
 
-      anime.timeline({}).add({
+      anime({
         targets: ".showcase-horizontal .letter",
         translateX: [40, 0],
         translateZ: 0,
