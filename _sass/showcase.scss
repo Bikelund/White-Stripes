@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   left: -45%;
-  width: 100vw;
+  height: 100vw;
 }
 
 .wrapper {
@@ -45,7 +45,7 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-transform: rotate(-90deg) translateX(-10%);
-  font-family: "Abril Fatface", cursive;
+  // font-family: "Abril Fatface", cursive;
   letter-spacing: 0.06em;
   font-size: 5em;
   font-weight: 900;
