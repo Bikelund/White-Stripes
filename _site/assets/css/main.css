@@ -58,7 +58,7 @@ ul { margin: 0; padding: 4vw 0 0 5vh; }
 
 .flex-right { width: 80vw; height: 100vh; }
 
-.showcase-horizontal { margin-left: 5%; position: fixed; -webkit-transform-origin: left top; -webkit-transform: rotate(-90deg) translateX(-100%); letter-spacing: 0.06em; font-size: 8.5em; font-weight: 900; width: 100vh; text-align: -webkit-center; }
+.showcase-horizontal { margin-left: 5%; -webkit-transform-origin: left top; -webkit-transform: rotate(-90deg) translateX(-100%); letter-spacing: 0.06em; font-size: 8.5em; font-weight: 900; width: 100vh; text-align: -webkit-center; }
 
 .wrapper { height: 95vh; display: grid; grid-template-columns: repeat(8, 1fr); grid-auto-rows: auto auto; padding-top: 5%; }
 
@@ -132,11 +132,15 @@ ul { margin: 0; padding: 4vw 0 0 5vh; }
 
 #hero { position: relative; overflow: hidden; width: auto; height: 100vh; background: center/cover no-repeat url("/assets/images/the-white-stripes.jpg"); }
 
+.txt-anim { visibility: hidden; }
+
+.is-visible { visibility: visible; }
+
 .about__content-section { padding-top: 2rem; width: 100%; display: grid; grid-template-areas: "strong strong strong" "p1     p2     contact"; grid-gap: 15px; }
 
 .about__content-section strong { grid-area: strong; grid-column: 1 / -1; font-size: 2rem; }
 
-.about__content-section .content__p1, .about__content-section .content__p2 { width: 80%; font-size: .8rem; color: #4d4d4d; }
+.about__content-section .content__p1, .about__content-section .content__p2 { width: 80%; font-size: .8rem; color: #4d4d4d; visibility: hidden; }
 
 .about__content-section .content__p1 { grid-area: p1; }
 
