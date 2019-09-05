@@ -21,9 +21,10 @@
 
 /* Navigation */
 .main-nav {
-    width:100vh;    
-    height:8vw;
-    position:fixed;
+    position: fixed;
+    left: 0;
+    width: 100vh;    
+    height: 8vw;
     background:white;
     -webkit-transform-origin: left top;
     -webkit-transform:rotate(-90deg) translateX(-100%);
@@ -53,9 +54,10 @@ ul.nav li {
       margin: 0;
       padding: 0;
       margin-left: 12px;
+      position: absolute;
 }
 a {
-    text-decoration:none;
+    text-decoration: none;
     color: black;
 }
 .custom-underline {
@@ -88,8 +90,8 @@ li {
     list-style:none
 }
 ul {
-    padding:0;
-    margin: 4vw 0 0 5vh;
+    margin: 0;
+    padding: 4vw 0 0 5vh;
 }
 .quote {
     font-size: 16vh;

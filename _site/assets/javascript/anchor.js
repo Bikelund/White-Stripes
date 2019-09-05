@@ -10,12 +10,12 @@ document.getElementById("anchor-link").onclick = function(event) {
         link = link.replace("#", innerLink + ".html");
         event.target.href = link;
 
+        let element = document.getElementsByClassName('main-nav'); 
+        element[0].classList.add("main-nav-left"); // Adds class for the animation of the menu bar
+
         setTimeout(function(){
             window.location.href = link;
         }, 2000);
 
     }
 }
-
-/* document.getElementById(link).style.display = "flex";
-event.target.classList.add("active-name");  */
