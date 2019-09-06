@@ -1,0 +1,54 @@
+.glass-container {
+    position: relative;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+.raw {
+    position: absolute;
+    background-image: url(/assets/images/horse.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.first{
+    background-attachment: fixed;
+    height: 100vh;
+    width: 10vw;
+    transform: rotate(3deg);
+    z-index: 2;
+    left: 12vw;
+}
+.second {
+    background-attachment: fixed;
+    width: 10vh;
+    transform: rotate(3deg);
+    z-index: 2;
+    left: 12vw;
+}
+.pos1 {
+    left: 12vw;
+    background-position-x: 5vw;
+}
+.pos2 {
+    left: 14vw;
+}
+.pos3 {
+    left: 30vw;
+    transform: rotate(-5deg)
+}
+.pos4 {
+    left: 40vw;
+}
+.pos5 {
+    left: 80vw;
+    transform: rotate(2deg)
+}
+.pos6 {
+    left: 45vw;
+    transform: rotate(-1deg);
+}
