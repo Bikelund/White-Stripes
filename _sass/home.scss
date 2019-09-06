@@ -39,9 +39,10 @@
 }
 .main-nav {
     position: fixed;
-    left: -8vw;
-    width: 100vh;    
-    height: 8vw;
+    left: 0;
+    top: 5vh;
+    width: 90vh;    
+    height: 3vw;
     background:white;
     -webkit-transform-origin: left top;
     -webkit-transform:rotate(-90deg) translateX(-100%);
@@ -51,9 +52,9 @@
     background: black;
     position: absolute;
     bottom: 0;
-    left: 4vh;
+    left: 0vh;
     height: 1px;
-    width: 91vh;
+    width: 90vh;
 }
 ul.nav li {    
     margin-right: 5vh;
@@ -109,6 +110,9 @@ li {
 ul {
     margin: 0;
     padding: 4vw 0 0 5vh;
+}
+.main-nav ul {
+    padding: 0 0 0 5vh;
 }
 .quote {
     font-size: 16vh;
