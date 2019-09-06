@@ -26,7 +26,9 @@ title: "The White Stripes"
   <div class="horizontal-scroll-wrapper-about">
        {% include_relative about.md %}
   </div>
-  <div class="box5">Contact</div>
+  <div class="horizontal-scroll-wrapper-outro">
+     {% include_relative outro.md %}
+  </div>
 </div>
 
 <script src="assets/javascript/introText.js"></script>
