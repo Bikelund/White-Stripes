@@ -1,7 +1,13 @@
 
 
-<h2 class="showcase-horizontal">Showcase</h2>
-      <div class="wrapper">
+<div class="flex-container" id="showcase">
+  <div class="flex-left">
+    <div class="showcase-horizontal">
+    <h2 class="showcase">Showcase</h2>
+     </div>
+  </div>
+  <div class="flex-right">
+  <div class="wrapper">
         <div class="wrapper--box1">
             <h2 class="wrapper--box1--title">The White Stripes</h2>
                 <img class="wrapper--box1--img animation-img" src="/assets/images/thewhitestripes.jpg">
@@ -15,7 +21,9 @@
             <div class="wrapper--text2--line"></div>
                 <p class="wrapper--box4--text animation-text">The White Stripes built upon their delightfully minimal combining of improvisational-sounding garage rock and jagged R&B here, on an album which was somehow dedicated to both a Dutch furniture designer and the bluesman Blind Willie McTell. 'De Stijl' was similarly complex, as the White Stripes took bold new lyrical chances even as they branched out into sounds as disparate as cabaret jazz and bubblegum pop.</p> 
         </div>
+      </div>
   </div>
+</div>
   <div class="horizontal-scroll-wrapper-showcase">
        <div class="wrapper wrapper-margin-left">
             <div class="wrapper--box5">
@@ -31,3 +39,4 @@
                 <div class="wrapper--text4--line"></div>
                     <p class="wrapper--box8--text animation-text">Less bluesy and more primal, 'White Blood Cells' features a wealth of material from very early in their career. Still, a general narrative of isolation under great scrutiny begins to emerge, and that theme is only bolstered by the claustrophobic album cover image. Even as fame suddenly surrounded them, the White Stripes' ability to mix toughness and tenderness shone through.</p> 
  </div>
+ 
