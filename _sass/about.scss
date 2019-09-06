@@ -2,9 +2,9 @@ $backgroundColor: #ffffff;
 $bodyColor: #000000;
 
 .album-wp {
-    position: absolute;
+    position: relative;
     top: 72vh;
-    left: 322vw;
+    left: -11em;
     min-width: 15rem;
     height: auto;
     z-index: 10;
@@ -18,15 +18,15 @@ $bodyColor: #000000;
 
 .about {
     display: grid;
-    grid-template-columns: 32% 2fr 10%;
-    grid-gap: 20px;
+    grid-template-columns: 28% 8% 2fr 10%;
+    grid-gap: 20px 10px;
     overflow: visible;
 }
 
 #hero {
     position: relative;
     overflow: hidden;
-    width: auto;
+    width: 25vw;
     height: 100vh;
     background: center / cover no-repeat url('/assets/images/the-white-stripes.jpg');
 }
