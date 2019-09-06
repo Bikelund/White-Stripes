@@ -21,6 +21,29 @@ function biographyTitleAnimation() {
   });
 }
 
+var biographyTitle2AnimationHasPlayed = false;
+/* Showcase tittle Animation */
+function biographyTitle2Animation() {
+  var biography2 = document.querySelectorAll(".biography-top .letters2");
+  biography2.forEach(function(text) {
+    if (isElementInViewport(text) && !biographyTitle2AnimationHasPlayed) {
+      biographyTitle2AnimationHasPlayed = true;
+      text.innerHTML = text.textContent.replace(
+        /\S/g,
+        "<span class='biography-letter2'>$&</span>"
+      );
+
+      anime({
+        targets: ".biography-top .biography-letter2",
+        rotateY: [-90, 0],
+        rotateX: [-90, 0],
+        duration: 2300,
+        delay: (el, i) => 245 * i
+      });
+    }
+  });
+}
+
 function isElementInViewport(el) {
   let rect = el.getBoundingClientRect();
   return rect.left + rect.width / 2 < window.innerWidth;
@@ -33,6 +56,11 @@ if (window.addEventListener) {
   addEventListener("scroll", biographyTitleAnimation, false);
 }
 
+if (window.addEventListener) {
+  addEventListener("DOMContentLoaded", biographyTitle2Animation, false);
+  addEventListener("load", biographyTitle2Animation, false);
+  addEventListener("scroll", biographyTitle2Animation, false);
+}
 /* Biography text animation */
 function bioTxtAnimation() {
     var bioText = document.querySelectorAll(".biography-bottom");
