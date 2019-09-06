@@ -36,3 +36,4 @@ title: "The White Stripes"
 <script src="https://kit.fontawesome.com/3e27283071.js"></script>
 <script src="assets/javascript/aboutAnim.js"></script>
 <script src="assets/javascript/scroll.js"></script>
+<script src="assets/javascript/videoscroll.js"></script>
