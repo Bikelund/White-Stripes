@@ -39,3 +39,4 @@
                 <div class="wrapper--text4--line"></div>
                     <p class="wrapper--box8--text animation-text">Less bluesy and more primal, 'White Blood Cells' features a wealth of material from very early in their career. Still, a general narrative of isolation under great scrutiny begins to emerge, and that theme is only bolstered by the claustrophobic album cover image. Even as fame suddenly surrounded them, the White Stripes' ability to mix toughness and tenderness shone through.</p> 
  </div>
+ 

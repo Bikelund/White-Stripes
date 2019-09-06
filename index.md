@@ -14,6 +14,9 @@ title: "The White Stripes"
 
 <div class="horizontal-scroll-wrapper squares">
        {% include_relative home.md %}
+  <div class="horizontal-scroll-wrapper-brokenglass">
+       {% include_relative brokenglass.md %}
+  </div>
   <div class="horizontal-scroll-wrapper-showcase">
        {% include_relative showcase.md %}
   </div>
@@ -36,3 +39,4 @@ title: "The White Stripes"
 <script src="https://kit.fontawesome.com/3e27283071.js"></script>
 <script src="assets/javascript/aboutAnim.js"></script>
 <script src="assets/javascript/scroll.js"></script>
+<script src="assets/javascript/biographyAnim.js"></script>
