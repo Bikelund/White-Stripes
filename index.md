@@ -17,6 +17,12 @@ title: "The White Stripes"
   <div class="horizontal-scroll-wrapper-showcase">
        {% include_relative showcase.md %}
   </div>
+  <div class="horizontal-scroll-wrapper-video">
+       {% include_relative video.md %}
+  </div>
+  <div class="horizontal-scroll-wrapper-biography">
+       {% include_relative biography.md %}
+  </div>
   <div class="horizontal-scroll-wrapper-about">
        {% include_relative about.md %}
   </div>

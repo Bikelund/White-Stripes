@@ -6,7 +6,7 @@ html { scroll-behavior: smooth; width: fit-content; }
 
 ::-webkit-scrollbar-button { width: 0px; height: 0px; }
 
-.horizontal-scroll-wrapper { display: grid; grid-template-columns: 100vw 100vw 100vw 100vw 100vw; }
+.horizontal-scroll-wrapper { display: grid; grid-template-columns: 100vw 100vw 100vw 100vw 100vw 100vw 100vw; }
 
 .index-container { display: flex; }
 
