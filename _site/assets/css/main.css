@@ -6,7 +6,7 @@ html { scroll-behavior: smooth; width: fit-content; }
 
 ::-webkit-scrollbar-button { width: 0px; height: 0px; }
 
-.horizontal-scroll-wrapper { display: grid; grid-template-columns: 100vw 100vw 100vw 100vw 100vw 100vw 100vw; }
+.horizontal-scroll-wrapper { display: grid; grid-template-columns: 100vw 100vw 100vw 100vw 100vw 100vw 100vw 100vw 100vw; }
 
 .index-container { display: flex; }
 
@@ -178,6 +178,27 @@ ul { margin: 0; padding: 4vw 0 0 5vh; }
 
 .about__title-section .seperator { width: 3px; height: 80vh; background: #b3b3b3; }
 
+.flex-container-biography { display: flex; height: 100vh; width: 100vw; }
+
+.flex-container-biography__left__jack { width: 40vw; background-image: url(/assets/images/jack_white.jpg); background-size: cover; }
+
+.flex-container-biography__right { width: 60vw; height: 100vh; display: grid; grid-row: auto auto; align-self: center; }
+
+.flex-container-biography__left__meg { width: 40vw; background-image: url(/assets/images/meg_white2.jpg); background-size: cover; }
+
+.biography-bottom { font-size: 1.2em; margin-left: 10%; width: 500px; opacity: 0; transform: translateY(-50px); transition: all 3s ease-out; }
+
+.bioTextFadeOut { z-index: 2; opacity: 1; transform: translateY(0); }
+
+.biography-top { margin-left: 2%; }
+
+.biography-top .biography-letter { display: inline-block; transform-origin: 0 0; }
+
+.biography-letter { font-size: 4em; padding: 0; margin: 0; }
+
+.biography-letter:nth-child(1), .biography-letter:nth-child(5) { font-size: 6em; }
+
+.biography-container { width: 450px; height: 450px; background-color: #d6d6d6; margin-top: -10%; margin-left: 21%; }
 .video-container { width: 100vw; height: 100vh; overflow: hidden; }
 
 .video-box { background-image: url(/assets/images/seven.png); background-size: cover; background-position: bottom; width: 100%; height: 100%; animation: backgroundLoop; animation-duration: 4s; animation-iteration-count: infinite; animation-timing-function: linear; animation-fill-mode: forwards; }
