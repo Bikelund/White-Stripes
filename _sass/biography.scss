@@ -5,9 +5,12 @@
 }
 
 .flex-container-biography__left__jack {
-  width: 40vw;
   background-image: url(/assets/images/jack_white.jpg);
-  background-size: cover;
+  min-width: 40vw;
+  min-height: 100vh;
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .flex-container-biography__right {
@@ -18,9 +21,12 @@
 }
 
 .flex-container-biography__left__meg {
-  width: 40vw;
   background-image: url(/assets/images/meg_white2.jpg);
-  background-size: cover;
+  min-width: 40vw;
+  min-height: 100vh;
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .biography-bottom {
@@ -48,11 +54,13 @@
   height: 30vh;
 }
 
-.biography-top .biography-letter, .biography-top .biography-letter2{
+.biography-top .biography-letter,
+.biography-top .biography-letter2 {
   display: inline-block;
   transform-origin: 0 0;
 }
-.biography-letter, .biography-letter2 {
+.biography-letter,
+.biography-letter2 {
   font-size: 4em;
   padding: 0;
   margin: 0;
