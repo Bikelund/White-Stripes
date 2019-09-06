@@ -21,9 +21,9 @@ html { scroll-behavior: smooth; width: fit-content; }
 
 .main-nav-static:after { content: ""; background: black; position: absolute; bottom: 0; left: 4vh; height: 1px; width: 91vh; }
 
-.main-nav { position: fixed; left: -8vw; width: 100vh; height: 8vw; background: white; -webkit-transform-origin: left top; -webkit-transform: rotate(-90deg) translateX(-100%); }
+.main-nav { position: fixed; left: 0; top: 5vh; width: 90vh; height: 3vw; background: white; -webkit-transform-origin: left top; -webkit-transform: rotate(-90deg) translateX(-100%); }
 
-.main-nav:after { content: ""; background: black; position: absolute; bottom: 0; left: 4vh; height: 1px; width: 91vh; }
+.main-nav:after { content: ""; background: black; position: absolute; bottom: 0; left: 0vh; height: 1px; width: 90vh; }
 
 ul.nav li { margin-right: 5vh; float: left; height: 100%; line-height: 45px; }
 
@@ -46,6 +46,8 @@ a { text-decoration: none; color: black; }
 li { list-style: none; }
 
 ul { margin: 0; padding: 4vw 0 0 5vh; }
+
+.main-nav ul { padding: 0 0 0 5vh; }
 
 .quote { font-size: 16vh; margin: 0; padding: 0; text-align: right; }
 
@@ -197,5 +199,51 @@ ul { margin: 0; padding: 4vw 0 0 5vh; }
 .biography-letter:nth-child(1), .biography-letter:nth-child(5) { font-size: 6em; }
 
 .biography-container { width: 450px; height: 450px; background-color: #d6d6d6; margin-top: -10%; margin-left: 21%; }
+.video-container { width: 100vw; height: 100vh; overflow: hidden; }
+
+.video-box { background-image: url(/assets/images/seven.png); background-size: cover; background-position: bottom; width: 100%; height: 100%; animation: backgroundLoop; animation-duration: 4s; animation-iteration-count: infinite; animation-timing-function: linear; animation-fill-mode: forwards; }
+
+@keyframes backgroundLoop { 0% { transform: scale(1);
+    opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: scale(1.3);
+    opacity: 0; } }
+
+.outro-container { width: 100%; height: 100vh; /* @keyframes fill { to { fill: black; } } */ }
+
+.outro-container svg { position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); /*   animation: fill .5s ease forwards 3s; */ }
+
+.outro-container .path1 { stroke-dashoffset: -71; stroke-dasharray: 71; animation: letter-anim 3s ease-in-out alternate infinite; }
+
+.outro-container .path2 { stroke-dashoffset: -102; stroke-dasharray: 102; animation: letter-anim 3s ease-in-out .3s alternate infinite; }
+
+.outro-container .path3 { stroke-dashoffset: -101; stroke-dasharray: 101; animation: letter-anim 3s ease-in-out .6s alternate infinite; }
+
+.outro-container .path4 { stroke-dashoffset: -156; stroke-dasharray: 156; animation: letter-anim 3s ease-in-out .9s alternate infinite; }
+
+.outro-container .path5 { stroke-dashoffset: -102; stroke-dasharray: 102; animation: letter-anim 3s ease-in-out 1.2s alternate infinite; }
+
+.outro-container .path6 { stroke-dashoffset: -71; stroke-dasharray: 71; animation: letter-anim 3s ease-in-out 1.5s alternate infinite; }
+
+.outro-container .path7 { stroke-dashoffset: -101; stroke-dasharray: 101; animation: letter-anim 3s ease-in-out 1.8s alternate infinite; }
+
+.outro-container .path8 { stroke-dashoffset: -101; stroke-dasharray: 101; animation: letter-anim 3s ease-in-out 2.1s alternate infinite; }
+
+.outro-container .path9 { stroke-dashoffset: -94; stroke-dasharray: 94; animation: letter-anim 3s ease-in-out 2.3s alternate infinite; }
+
+.outro-container .path10 { stroke-dashoffset: -71; stroke-dasharray: 71; animation: letter-anim 3s ease-in-out 2.6s alternate infinite; }
+
+.outro-container .path11 { stroke-dashoffset: -105; stroke-dasharray: 105; animation: letter-anim 3s ease-in-out 2.9s alternate infinite; }
+
+.outro-container .path12 { stroke-dashoffset: -43; stroke-dasharray: 43; animation: letter-anim 3s ease-in-out 3.2s alternate infinite; }
+
+.outro-container .path13 { stroke-dashoffset: -84; stroke-dasharray: 84; animation: letter-anim 3s ease-in-out 3.5s alternate infinite; }
+
+.outro-container .path14 { stroke-dashoffset: -101; stroke-dasharray: 101; animation: letter-anim 3s ease-in-out 3.8s alternate infinite; }
+
+.outro-container .path15 { stroke-dashoffset: -94; stroke-dasharray: 94; animation: letter-anim 3s ease-in-out 4.1s alternate infinite; }
+
+@keyframes letter-anim { to { stroke-dashoffset: 0; } }
 
 /*# sourceMappingURL=main.css.map */
