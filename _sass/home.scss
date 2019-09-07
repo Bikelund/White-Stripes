@@ -19,7 +19,7 @@
     overflow: hidden;
 }
 
-/* Navigation */
+/* Menubar */
 .main-nav-static {
     position: absolute;
     width: 100vh;    
@@ -37,9 +37,10 @@
     height: 1px;
     width: 91vh;
 }
+/* Hidden menubar */
 .main-nav {
     position: fixed;
-    left: 0;
+    left: -8vw;
     top: 5vh;
     width: 90vh;    
     height: 3vw;
