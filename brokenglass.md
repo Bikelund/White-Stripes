@@ -7,4 +7,6 @@
     <div class="raw second pos6"></div>
     <div class="raw second pos7"></div>
     <div class="raw second pos8"></div>
+    <div class="raw second pos9"></div>
+    <div class="raw second pos10"></div>
 </div>

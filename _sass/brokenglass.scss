@@ -42,13 +42,24 @@
 }
 .pos6 {
     left: 50vw;
-    transform: rotate(2deg)
+    transform: rotate(4deg)
 }
 .pos7 {
     left: 60vw;
     transform: rotate(-2deg)
 }
 .pos8 {
+    left: 71vw;
+    transform: rotate(-3deg);
+    background-position-x: -3vw;
+    width: 15vw;
+}
+.pos9 {
+    left: 74vw;
+    transform: rotate(-3deg);
+    background-position-x: 5vw;
+}
+.pos10 {
     left: 94vw;
     transform: rotate(0deg);
     background-position-x: -5vw;
