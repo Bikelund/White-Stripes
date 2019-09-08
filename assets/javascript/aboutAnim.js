@@ -10,7 +10,12 @@ function aboutAnim() {
     })
 }
 
-window.addEventListener('scroll', aboutAnim)
+// window.addEventListener('scroll', aboutAnim)
+if (window.addEventListener) {
+    addEventListener('DOMContentLoaded', aboutAnim, false);
+    addEventListener('load', aboutAnim, false);
+    addEventListener('scroll', aboutAnim, false);
+}
 
 // small image parallax effect
 const aboutImg = document.querySelector('figure')
@@ -20,7 +25,7 @@ function parallaxAboutImg() {
 
     if (isElementInViewport(aboutImg)) {
         var distance = distanceFromLeft(aboutImg)
-        aboutImg.style.transform = `translateX(${distance*multiplier}px)`;
+        aboutImg.style.transform = `translateX(${distance*multiplier}px)`
     }
 }
 

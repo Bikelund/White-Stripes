@@ -1,0 +1,66 @@
+.glass-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* Main background */
+    background-image: url(/assets/images/horse.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.raw {
+    position: absolute;
+    background-image: url(/assets/images/horse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    width: 6vw;
+    height: 100vh;
+    transform: rotate(3deg);
+}
+.pos1 {
+    left: 6vw;
+    background-position-x: 5vw;
+}
+.pos2 {
+    left: 8vw;
+}
+.pos3 {
+    left: 20vw;
+    transform: rotate(-5deg)
+}
+.pos4 {
+    left: 30vw;
+    background-position-x: 2vw;
+}
+.pos5 {
+    left: 35vw;
+    transform: rotate(-1deg);
+}
+.pos6 {
+    left: 50vw;
+    transform: rotate(4deg)
+}
+.pos7 {
+    left: 60vw;
+    transform: rotate(-2deg)
+}
+.pos8 {
+    left: 71vw;
+    transform: rotate(-3deg);
+    background-position-x: -3vw;
+    width: 15vw;
+}
+.pos9 {
+    left: 74vw;
+    transform: rotate(-3deg);
+    background-position-x: 5vw;
+}
+.pos10 {
+    left: 94vw;
+    transform: rotate(0deg);
+    background-position-x: -5vw;
+}

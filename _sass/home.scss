@@ -10,25 +10,26 @@
 .middle {
     width: 8vw;
     height: 100vh;
-    background-color: white;
+    background-color: $backgroundColor;
 }
 .right {
     width: 60vw;
     height: 100vh;
-    background-color: white;
+    background-color: rgb(54, 54, 54);
     overflow: hidden;
+    color: white;
 }
 
-/* Navigation */
+/* Menubar */
 .main-nav-static {
     position: absolute;
     width: 100vh;    
     height: 8vw;
-    background:white;
+    background: $backgroundColor;
     -webkit-transform-origin: left top;
     -webkit-transform:rotate(-90deg) translateX(-100%);
 }
-.main-nav-static:after {
+/* .main-nav-static:after {
     content: "";
     background: black;
     position: absolute;
@@ -36,20 +37,21 @@
     left: 4vh;
     height: 1px;
     width: 91vh;
-}
+} */
+/* Hidden menubar */
 .main-nav {
     position: fixed;
-    left: 0;
+    left: -8vw;
     top: 5vh;
     width: 90vh;    
     height: 3vw;
-    background:white;
+    background: $backgroundColor;
     -webkit-transform-origin: left top;
     -webkit-transform:rotate(-90deg) translateX(-100%);
 }
 .main-nav:after {
     content: "";
-    background: black;
+    background: $bodyColor;
     position: absolute;
     bottom: 0;
     left: 0vh;
@@ -69,6 +71,7 @@ ul.nav li {
       margin-right: 5vh;
 }
 .title-vertical {
+      text-shadow: 3px 3px red;
       margin: 0;
       padding: 0;
       margin-left: 12px;
@@ -76,16 +79,10 @@ ul.nav li {
 }
 a {
     text-decoration: none;
-    color: black;
+    color: $bodyColor;
 }
 .custom-underline {
     position: relative;
-}
-.custom-underline:hover,
-.custom-underline:focus,
-.custom-underline:active {
-  color: black;
-  text-decoration: none;
 }
 .custom-underline::after {
     content: "";

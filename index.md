@@ -2,15 +2,8 @@
 layout: default
 title: "The White Stripes"
 ---
-
-<div class="main-nav">
-     <ul class="nav" id="anchor-link">
-          <li><a class="custom-underline" href="#home">Home</a></li>
-          <li><a class="custom-underline" href="#showcase">Showcase</a></li>
-          <li><a class="custom-underline" href="#about">About</a></li>
-     </ul>
-     <h1 class="title-horizontal">The White Stripes</h1>
-</div>
+<!-- Hidden menu -->
+{% include_relative menu.md %}
 
 <div class="horizontal-scroll-wrapper squares">
        {% include_relative home.md %}
@@ -35,7 +28,6 @@ title: "The White Stripes"
 </div>
 
 <script src="assets/javascript/introText.js"></script>
-<!-- <script src="assets/javascript/anchor.js"></script> -->
 <script src="assets/javascript/introTextAnimation.js"></script>
 <script src="assets/javascript/showcaseAnimation.js"></script>
 <script src="https://kit.fontawesome.com/3e27283071.js"></script>
@@ -43,3 +35,4 @@ title: "The White Stripes"
 <script src="assets/javascript/scroll.js"></script>
 <script src="assets/javascript/biographyAnim.js"></script>
 <script src="assets/javascript/videoscroll.js"></script>
+<script src="assets/javascript/parallaxX.js"></script>
