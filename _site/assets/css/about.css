@@ -2,13 +2,11 @@
 
 .about { display: grid; grid-template-columns: 36% 2fr 10%; grid-gap: 20px 10px; perspective: 1px; transform-style: preserve-3d; height: 100%; overflow-x: scroll; overflow-y: hidden; }
 
-#hero { position: relative; max-width: 50vw; width: 100%; height: 100vh; padding: 0 35vw 0; position: relative; transform-style: inherit; background: 50% 50% / cover; }
+#hero { position: relative; max-width: 25vw; width: 40%; height: 100vh; padding: 0 35vw 0; position: relative; transform-style: inherit; background: 50% 50% / cover; }
 
-#hero::before { background: 50% 50% / cover; position: absolute; content: ''; top: 0; right: 0; bottom: 0; left: -30%; display: block; background-image: url("/assets/images/the-white-stripes.jpg"); background-size: cover; background-origin: center center 0; transform: translateZ(-1px) scale(2); z-index: -1; width: 30vw; }
+#hero::before { background: 50% 50% / cover; position: absolute; content: ''; top: 0; right: 0; bottom: 0; left: -30%; display: block; background-image: url("/assets/images/stereo.jpg"); background-size: cover; background-origin: center center 0; transform: translateZ(-1px) scale(2); z-index: -1; width: 30vw; }
 
-#hero figure { position: relative; top: 72vh; left: -18.8em; margin-left: -100px; width: 100%; height: 12rem; background: center/contain no-repeat url("/assets/images/the-white-stripes-wallpapers.jpg"); }
-
-#hero * { margin: 0; padding-left: -35em; }
+#hero figure { position: relative; top: 72vh; left: -19.3em; width: 100%; height: 12rem; background: center/contain no-repeat url("/assets/images/the-white-stripes-wallpapers.jpg"); }
 
 .txt-anim { opacity: 0; transform: translate(0, 50%); transition: all .8s ease-in-out; }
 
