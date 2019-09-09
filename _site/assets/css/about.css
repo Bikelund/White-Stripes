@@ -1,16 +1,22 @@
-.album-wp { position: relative; top: 72vh; left: -11em; min-width: 15rem; height: auto; z-index: 10; }
+.about-container { height: 100vh; overflow: hidden; }
 
-.album-wp figure { width: 100%; height: 12rem; background: center/contain no-repeat url("/assets/images/the-white-stripes-wallpapers.jpg"); }
+.about { display: grid; grid-template-columns: 36% 2fr 10%; grid-gap: 20px 10px; perspective: 1px; transform-style: preserve-3d; height: 100%; overflow-x: scroll; overflow-y: hidden; }
 
-.about { display: grid; grid-template-columns: 28% 8% 2fr 10%; grid-gap: 20px 10px; overflow: visible; }
+#hero { position: relative; max-width: 50vw; width: 100%; height: 100vh; padding: 0 35vw 0; position: relative; transform-style: inherit; background: 50% 50% / cover; }
 
-#hero { position: relative; overflow: hidden; width: 25vw; height: 100vh; background: center/cover no-repeat url("/assets/images/the-white-stripes.jpg"); }
+#hero::before { background: 50% 50% / cover; position: absolute; content: ''; top: 0; right: 0; bottom: 0; left: -30%; display: block; background-image: url("/assets/images/the-white-stripes.jpg"); background-size: cover; background-origin: center center 0; transform: translateZ(-1px) scale(2); z-index: -1; width: 30vw; }
+
+#hero figure { position: relative; top: 72vh; left: -18.8em; margin-left: -100px; width: 100%; height: 12rem; background: center/contain no-repeat url("/assets/images/the-white-stripes-wallpapers.jpg"); }
+
+#hero * { margin: 0; padding-left: -35em; }
 
 .txt-anim { opacity: 0; transform: translate(0, 50%); transition: all .8s ease-in-out; }
 
 .is-visible { opacity: 1; transform: translate(0, 0); }
 
 .about__content-section { padding-top: 2rem; width: 100%; display: grid; grid-template-areas: "strong strong strong" "p1     p2     contact"; grid-gap: 15px; }
+
+.about__content-section h3 { grid-area: strong; }
 
 .about__content-section strong { grid-area: strong; grid-column: 1 / -1; font-size: 2rem; }
 

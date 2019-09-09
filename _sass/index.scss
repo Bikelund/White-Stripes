@@ -1,13 +1,13 @@
-
 $finalHeight: 100vw;
 $finalWidth: 100vw;
 $scrollBarHeight: 0px;
 
+/* Hides the scrollbar */
 ::-webkit-scrollbar {
   width: $scrollBarHeight;
   height: $scrollBarHeight;
 }
-
+/* Hides the scrollbar button */
 ::-webkit-scrollbar-button {
   width: $scrollBarHeight;
   height: $scrollBarHeight;
@@ -16,4 +16,8 @@ $scrollBarHeight: 0px;
 .horizontal-scroll-wrapper{
     display: grid;
     grid-template-columns: 100vw 100vw 100vw 100vw 100vw 100vw 100vw 100vw 100vw;
+}
+
+.horizontal-scroll-wrapper-about {
+  padding-left: 3vw;
 }

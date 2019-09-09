@@ -17,9 +17,9 @@
     </div>
     <div class="right">
         <h1 class="title-vertical">The White Stripes</h1>
-        <p class="quote">
+        <p class="quote quote-one">
             <span class="quote-wrapper">
-                <span class="letters">Will</span>
+                <span class="letters letters-one">Will</span>
             </span>
         </p>
         <p class="quote">
