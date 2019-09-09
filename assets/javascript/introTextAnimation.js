@@ -24,10 +24,14 @@ anime.timeline({})
 */
 anime.timeline({})
 .add({
-targets: '.quote',
-translateY: ["1.2em", 0],
-translateZ: 0,
-easing: "easeInOutExpo",
-duration: 5000,
-delay: (el, i) => 200 * i
+    targets: '.quote',
+    translateX: ["-10vw", 0],
+    duration: 2000,
+}).add({
+    targets: '.quote',
+    /* translateY: ["1.2em", 0], */
+    translateX: ["10vw", 0],
+    easing: "easeOutCubic",
+    duration: 2000,
+    delay: (el, i) => 200*i
 });

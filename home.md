@@ -17,26 +17,10 @@
     </div>
     <div class="right">
         <h1 class="title-vertical">The White Stripes</h1>
-        <p class="quote quote-one">
-            <span class="quote-wrapper">
-                <span class="letters letters-one">Will</span>
-            </span>
-        </p>
-        <p class="quote">
-            <span class="quote-wrapper">
-                <span class="letters">There</span>
-            </span>
-        </p>
-        <p class="quote">
-            <span class="quote-wrapper">
-                <span class="letters">Be</span>
-            </span>
-        </p>
-        <p class="quote">
-            <span class="quote-wrapper">
-                <span class="letters">Enough Water</span>
-            </span>
-        </p>
+        <p class="quote quote-one">Will</p>
+        <p class="quote quote-two">There</p>
+        <p class="quote quote-three">Be</p>
+        <p class="quote quote-four">Enough Water</p>
     </div>
  </div>
 

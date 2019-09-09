@@ -6,6 +6,7 @@
     height: 100vh;
     background-image: url(/assets/images/cosmonaut_rob_jones.jpg);
     background-size: cover;
+    filter:saturate(1);
 }
 .middle {
     width: 8vw;
@@ -16,8 +17,9 @@
     width: 60vw;
     height: 100vh;
     background-color: rgb(54, 54, 54);
+    background-color: white;
     overflow: hidden;
-    color: white;
+    color: black;
 }
 
 /* Menubar */
@@ -29,7 +31,7 @@
     -webkit-transform-origin: left top;
     -webkit-transform:rotate(-90deg) translateX(-100%);
 }
-/* .main-nav-static:after {
+.main-nav-static:after {
     content: "";
     background: black;
     position: absolute;
@@ -37,7 +39,7 @@
     left: 4vh;
     height: 1px;
     width: 91vh;
-} */
+}
 /* Hidden menubar */
 .main-nav {
     position: fixed;
@@ -67,11 +69,11 @@ ul.nav li {
 .title-horizontal {
       float: right;
       margin: 0;
-      padding: 1vh 0 0 0;
+      padding: 0;
       margin-right: 5vh;
 }
 .title-vertical {
-      text-shadow: 3px 3px red;
+      /* text-shadow: 3px 3px red; */
       margin: 0;
       padding: 0;
       margin-left: 12px;
@@ -115,5 +117,24 @@ ul {
     font-size: 16vh;
     margin: 0;
     padding: 0;
-    text-align: right;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+}
+.quote-one {
+    top: 4vh;
+}
+.quote-two {
+    top: 26vh;
+}
+.quote-three {
+    top: 48vh;
+}
+.quote-four {
+    top: 70vh;
 }
