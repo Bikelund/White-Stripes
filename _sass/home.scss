@@ -28,8 +28,8 @@
     width: 100vh;    
     height: 8vw;
     background: $backgroundColor;
-    -webkit-transform-origin: left top;
-    -webkit-transform:rotate(-90deg) translateX(-100%);
+    transform-origin: left top;
+    transform:rotate(-90deg) translateX(-100%);
 }
 .main-nav-static:after {
     content: "";
@@ -48,8 +48,8 @@
     width: 90vh;    
     height: 3vw;
     background: $backgroundColor;
-    -webkit-transform-origin: left top;
-    -webkit-transform:rotate(-90deg) translateX(-100%);
+    transform-origin: left top;
+    /* -webkit- */transform:rotate(-90deg) translateX(-100%);
 }
 .main-nav:after {
     content: "";
@@ -78,6 +78,12 @@ ul.nav li {
       padding: 0;
       margin-left: 12px;
       position: absolute;
+      color: red;
+      text-shadow:
+   -1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px 1px 0 black,
+     1px 1px 0 black;
 }
 a {
     text-decoration: none;

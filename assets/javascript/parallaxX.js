@@ -7,6 +7,7 @@ function parallax() {
   let horizontal = document.querySelectorAll(".static");
   let sevenNationArmy = document.querySelectorAll(".seven-text");
   let quotes = document.querySelectorAll('.quote');
+  let smallImg = document.querySelectorAll('.small-img');
   /* let multiplier = 0.1; */
   
     vertical.forEach(function(vertical) {
@@ -19,14 +20,14 @@ function parallax() {
     horizontal.forEach(function(horizontal) {
       if (isElementInViewport(horizontal)) {
         let distanceX = window.pageXOffset;
-        console.log(distanceX);
+        /* console.log(distanceX); */
         horizontal.style.transform = "translateY(-" + 0.1 * distanceX + "px)";
       }
     });
     sevenNationArmy.forEach(function(seven) {
       if (isElementInViewport(seven)) {
         let distanceX = elementDistanceFromLeftOfViewport(seven);
-        seven.style.transform = "translateX(" + 0.1 * distanceX + "px)";
+        seven.style.transform = "translateX(" + 0.3 * distanceX + "px)";
       }
     });
     quotes.forEach(function(quote) {
@@ -36,6 +37,12 @@ function parallax() {
         quotes[1].style.transform = "translateX(" + 0.3 * distanceX2 + "px)";
         quotes[2].style.transform = "translateX(" + 0.2 * distanceX2 + "px)";
         quotes[3].style.transform = "translateX(" + 0.1 * distanceX2 + "px)";
+      }
+    });
+    smallImg.forEach(function(img) {
+      if (isElementInViewport(img)) {
+        let distanceX = elementDistanceFromLeftOfViewport(img);
+        img.style.backgroundPositionX = "-" + 0.15 * distanceX + "px";
       }
     });
   }
