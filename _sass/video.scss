@@ -4,17 +4,11 @@
     position: relative;
     overflow: hidden;
 }
-.seven {
-    position: absolute;
-    font-size: 10vh;
-    top: 50vh;
-    text-align: center;
-    width: 100%;
-    color: red;
-    animation-name: textLoop;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+.seven-text {
+    display: inline-block;
+    font-size: 5vh;
+    margin: 0;
+    z-index: 10;
 }
 .video-box {
     position: absolute;
