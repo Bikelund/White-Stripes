@@ -5,7 +5,7 @@
             <figure></figure>
         </div>
         <div class="about__content-section">
-            <h3 class="txt-anim"><strong class="txt-anim">The White Stripes </strong>were an American rock duo formed in 1997 in Detroit, Michigan. The group consisted of Jack White (songwriter, vocals, guitar, piano, and mandolin) and Meg White (drums and vocals). After releasing several singles and three albums within the Detroit music scene, The White Stripes rose to prominence in 2002, as part of the garage rock revival scene. </h3>
+            <h3 class="txt-anim"><strong>The White Stripes </strong>were an American rock duo formed in 1997 in Detroit, Michigan. The group consisted of Jack White (songwriter, vocals, guitar, piano, and mandolin) and Meg White (drums and vocals). After releasing several singles and three albums within the Detroit music scene, The White Stripes rose to prominence in 2002, as part of the garage rock revival scene. </h3>
             <p class="txt-anim content__p1">The White Stripes used a low-fidelity approach to writing and recording. Their music featured a melding of garage rock and blues influences and a raw simplicity of composition, arrangement, and performance. </p>
             <p class="txt-anim content__p2">The duo were also noted for their fashion and design aesthetic which featured a simple color scheme of red, white, and black—which was used on every album and single cover the band released—as well as the band's fascination with the number three.</p>
             <div class="contact">
