@@ -120,7 +120,7 @@ ul {
     padding: 0 0 0 5vh;
 }
 .quote {
-    font-size: 16vh;
+    font-size: 14vh;
     margin: 0;
     padding: 0;
     position: absolute;
@@ -143,4 +143,13 @@ ul {
 }
 .quote-four {
     top: 70vh;
+    /* right: -10vw; */
+}
+.home-img {
+    background: url(/assets/images/Red_Paper_Penguin_big.jpg);
+    width: 15vw;
+    height: 29vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5vh;
 }

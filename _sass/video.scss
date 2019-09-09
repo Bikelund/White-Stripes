@@ -7,6 +7,8 @@
 .seven-box {
     transform-origin: left bottom;
     transform: rotate(-90deg) translateX(-90%) translateY(100%);
+    overflow: hidden;
+    height: 9vh;
 }
 .seven-text {
     display: inline-block;
