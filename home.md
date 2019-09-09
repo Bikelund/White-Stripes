@@ -12,7 +12,7 @@
                 <li><a class="custom-underline" href="#showcase">Showcase</a></li>
                 <li><a class="custom-underline" href="#about">About</a></li>
             </ul>
-            <h1 class="title-horizontal">The White Stripes</h1>
+            <h1 class="title-horizontal static">The White Stripes</h1>
         </div>
     </div>
     <div class="right">
