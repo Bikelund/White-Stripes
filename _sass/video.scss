@@ -4,11 +4,18 @@
     position: relative;
     overflow: hidden;
 }
+.seven-box {
+    transform-origin: left bottom;
+    transform: rotate(-90deg) translateX(-90%) translateY(100%);
+}
 .seven-text {
     display: inline-block;
     font-size: 5vh;
     margin: 0;
     z-index: 10;
+}
+.seven-text-red {
+    color: red;
 }
 .video-box {
     position: absolute;
@@ -71,4 +78,59 @@
     100% {
         transform: scale(.5)
     }
+}
+
+.small-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 40vh;
+    z-index: 10;
+    position: absolute;
+    animation: boxBorder;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.first-img {
+    background-image: url(/assets/images/sevenNationArmy1.jpg);
+    top: 20vh;
+    right: 10vw;
+}
+.second-img {
+    background-image: url(/assets/images/sevenNationArmy3.png);
+    top: 40vh;
+    left: 10vw;
+}
+
+@keyframes boxBorder {
+    0% {
+        box-shadow: 0px 0px red;
+    }
+    50% {
+        box-shadow: 0px 0px 10px red;
+    }
+    100% {
+        box-shadow: 0px 0px red;
+    }
+}
+
+.quote-box {
+    position: absolute;
+    top: 10vh;
+    left: 40vw;
+    width: 20vw;
+    height: 1vh;
+    z-index: 10;
+    text-align: center;
+}
+.quote-box p {
+    font-size: 4vh;
+    padding: 0;
+    margin: 0;
+    color: black;
+    text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
 }
