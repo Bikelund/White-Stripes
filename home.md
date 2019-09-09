@@ -17,6 +17,7 @@
     </div>
     <div class="right">
         <h1 class="title-vertical">The White Stripes</h1>
+        <div class="home-img"></div>
         <p class="quote quote-one">Will</p>
         <p class="quote quote-two">There</p>
         <p class="quote quote-three">Be</p>
