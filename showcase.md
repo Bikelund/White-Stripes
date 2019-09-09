@@ -39,4 +39,20 @@
                 <div class="wrapper--text4--line"></div>
                     <p class="wrapper--box8--text animation-text">Less bluesy and more primal, 'White Blood Cells' features a wealth of material from very early in their career. Still, a general narrative of isolation under great scrutiny begins to emerge, and that theme is only bolstered by the claustrophobic album cover image. Even as fame suddenly surrounded them, the White Stripes' ability to mix toughness and tenderness shone through.</p> 
  </div>
+ </div>
+  <div class="horizontal-scroll-wrapper-showcase">
+       <div class="wrapper">
+            <div class="wrapper--box5">
+              <h2 class="wrapper--box8--title">Get behind me satan</h2>
+                 <img class="wrapper--box5--img animation-img" src="/assets/images/getbehind.jpg">
+            </div>
+                <div class="wrapper--text3--line"></div>
+                    <p class="wrapper--box6--text animation-text">The White Stripes made a series of sharp turns after the sweeping successes of 'Elephant,' as Jack White swapped his prickly electric for things like piano and mandolin. But 'Get Behind Me Satan' was no unplugged session either, despite having been largely recorded in the foyer of White's home. Instead, it's an expectation-exploding statement of musical purpose. Only the album's striking imagery, which White once said focused on the "ideals of truth," holds things together on this challenging, but ultimately very rewarding project.</p>
+            <div class="wrapper--box7">
+               <h2 class="wrapper--box9--title">Icky Thump</h2>
+                  <img class="wrapper--box7--img animation-img" src="/assets/images/Icky_Thump.jpg">
+            </div>
+                <div class="wrapper--text4--line"></div>
+                    <p class="wrapper--box8--text animation-text">The White Stripes' final album takes the bold musical chances of 'Get Behind Me Satan' – adding elements of folk, the avant-garde and even bagpipes to their patented punky, stripped-down garage blues – while returning to deeper lyrical themes in the style of 'De Stijl.' The difference is how heavy 'Icky Thump' was, by comparison. That makes a bucolic detour like "Prickly Thorn, But Sweetly Worn" all the more welcome – like a short exhale before the White Stripes take off again.</p> 
+ </div>
  

@@ -48,7 +48,7 @@
   box-shadow: 13px 19px 21px -8px rgba(79, 70, 79, 0.96);
 }
 
-.wrapper--box1--title, .wrapper--box3--title, .wrapper--box5--title, .wrapper--box7--title{
+.wrapper--box1--title, .wrapper--box3--title, .wrapper--box5--title, .wrapper--box7--title, .wrapper--box8--title, .wrapper--box9--title{
   display: block;
   position: absolute;
   left: -5em !important;
@@ -121,7 +121,7 @@
 
 /* Showcase page2 */
 
-.wrapper--box5--title, .wrapper--box7--title {
+.wrapper--box5--title, .wrapper--box7--title, .wrapper--box8--title, .wrapper--box9--title {
   transform: rotate(90deg) translateY(20%);
 }
 /* Elephant */
@@ -190,12 +190,33 @@
   margin-top: 4em;
 }
 
+/* Get behind me satan */
+.wrapper--box8--title {
+  line-height: 1em;
+  left: 3em !important;
+  font-size: 4em;
+  width: 30vw;
+  margin-top: 2em;
+}
+
+/* Icky Thump */
+.wrapper--box9--title{
+  font-size: 4em;
+  left: 5em !important;
+}
+
 /* Showcase Animation */
 .animation-img{
   opacity: 0;
   transform: translateY(-50px);
   transition: all 1.2s ease-out;
 }
+
+.wrapper{
+   height: 100vh;
+}
+
+/* Animation */
 
 .fadeInImg{
   opacity: 1;

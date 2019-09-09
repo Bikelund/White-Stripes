@@ -15,7 +15,7 @@ $scrollBarHeight: 0px;
 
 .horizontal-scroll-wrapper{
     display: grid;
-    grid-template-columns: 100vw 100vw 100vw 100vw 100vw 100vw 100vw 100vw 100vw;
+    grid-template-columns: repeat(10, 100vw);
 }
 
 .horizontal-scroll-wrapper-about {
