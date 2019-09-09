@@ -78,4 +78,6 @@ function bioTxtAnimation() {
     addEventListener("load", bioTxtAnimation, false);
     addEventListener("scroll", bioTxtAnimation, false);
   }
+
+
   

@@ -17,8 +17,8 @@
 .showcase-horizontal{
   margin-left: 5%;
   // position: fixed;
-  -webkit-transform-origin: left top;
-  -webkit-transform:rotate(-90deg) translateX(-100%);
+  transform-origin: left top;
+  transform:rotate(-90deg) translateX(-100%);
   letter-spacing: 0.06em;
   font-size: 8.5em;
   font-weight: 900;
@@ -45,8 +45,6 @@
 
 .wrapper--box1--img, .wrapper--box3--img, .wrapper--box5--img, .wrapper--box7--img{
   width: 22vw;
-  -webkit-box-shadow: 13px 19px 21px -8px rgba(79, 70, 79, 0.96);
-  -moz-box-shadow: 13px 19px 21px -8px rgba(79, 70, 79, 0.96);
   box-shadow: 13px 19px 21px -8px rgba(79, 70, 79, 0.96);
 }
 
@@ -54,11 +52,8 @@
   display: block;
   position: absolute;
   left: -5em !important;
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  -webkit-transform: rotate(-90deg) translateX(-10%);
-  // font-family: "Abril Fatface", cursive;
+  transform: rotate(-90deg) translateX(-10%);
   letter-spacing: 0.06em;
   font-size: 5em;
   font-weight: 900;
@@ -125,11 +120,9 @@
 
 
 /* Showcase page2 */
-.wrapper-margin-left{
-}
 
 .wrapper--box5--title, .wrapper--box7--title {
-  -webkit-transform: rotate(90deg) translateY(20%);
+  transform: rotate(90deg) translateY(20%);
 }
 /* Elephant */
 .wrapper--box5 {
@@ -138,8 +131,6 @@
   grid-row-start: 1;
   grid-row-end: 2;
   position: relative;
-  // margin-top: 5%;
-  // margin-left: -15%;
 }
 
 .wrapper--box5--title{
@@ -155,7 +146,7 @@
 
 .wrapper--text3--line::before {
   margin-top: 13em;
-    margin-left: 2em;
+  margin-left: 2em;
 }
 
 .wrapper--box6--text {
