@@ -42,6 +42,9 @@
 
 .bioTxt {
   position: absolute;
+  margin-left: 8%;
+  margin-right: -15%;
+  margin-top: 10%;
 }
 
 .bioTextFadeOut {
@@ -52,6 +55,7 @@
 .biography-top {
   margin-left: 2%;
   height: 30vh;
+  width: 100vw;
 }
 
 .biography-top .biography-letter,
@@ -79,8 +83,27 @@
 .biography-container {
   position: absolute;
   display: block;
-  width: 450px;
-  height: 450px;
+  width: 600px;
+  height: 600px;
   background-color: rgb(214, 214, 214);
-  margin-left: 21%;
+  border-radius: 50%;
+  margin: 5%;
 }
+
+
+.svg-circle-container{
+  z-index: 100;
+}
+
+.path{
+  stroke-dasharray: 5000;
+  stroke-dashoffset: 5000;
+  animation: DASH 4s ease-in-out alternate 0s forwards infinite;
+}
+
+@keyframes DASH {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
