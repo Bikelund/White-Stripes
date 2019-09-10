@@ -7,59 +7,68 @@
      </div>
   </div>
   <div class="flex-right">
-  <div class="wrapper first-wrapper">
-        <div class="wrapper--box1">
-            <h2 class="wrapper--box1--title">The White Stripes</h2>
-                <img class="wrapper--box1--img animation-img" src="/assets/images/thewhitestripes.jpg">
+  <div class="wrapper">
+      <div class="flex-up">
+        <div class="wrapper--box">
+            <h2 class="title__whiteStripes">The White Stripes</h2>
+                <img class="animation-img" src="/assets/images/thewhitestripes.jpg">
         </div>
-            <div class="wrapper--text1--line"></div>
-            <div class="wrapper--box2--text animation-text">
-                <p>This bare-bones debut is the very definition of "less is more." Jack's jagged riffs might have sounded like arena rock, but for the wide-open spaces provided by Meg's off-kilter rhythms. The only thing that was missingÏ on this covers-heavy album was more original material, and that – along with a growing sense of musical adventurousness – completed the White Stripes' distinctive new profile.</p>
-                </div>
-         <div class="wrapper--box3">
-            <h2 class="wrapper--box3--title">De Stijl</h2>
-                <img class="wrapper--box3--img animation-img" src="/assets/images/De_Stijl.jpg">
+            <div class="wrapper--line"></div>
+                <div class="flex-text"><p class="animation-text">This bare-bones debut is the very definition of "less is more." Jack's jagged riffs might have sounded like arena rock, but for the wide-open spaces provided by Meg's off-kilter rhythms. The only thing that was missingÏ on this covers-heavy album was more original material, and that – along with a growing sense of musical adventurousness – completed the White Stripes' distinctive new profile.</p></div>
+       </div>
+       <div class="flex-down">
+         <div class="wrapper--box">
+            <h2 class="title__deStijl">De Stijl</h2>
+                <img class="animation-img" src="/assets/images/De_Stijl.jpg">
          </div>
-            <div class="wrapper--text2--line"></div>
-             <div class="wrapper--box4--text animation-text">
-                <p>The White Stripes built upon their delightfully minimal combining of improvisational-sounding garage rock and jagged R&B here, on an album which was somehow dedicated to both a Dutch furniture designer and the bluesman Blind Willie McTell. 'De Stijl' was similarly complex, as the White Stripes took bold new lyrical chances even as they branched out into sounds as disparate as cabaret jazz and bubblegum pop.</p></div>
+            <div class="wrapper--line"></div>
+                <div class="flex-text"><p class="animation-text">The White Stripes built upon their delightfully minimal combining of improvisational-sounding garage rock and jagged R&B here, on an album which was somehow dedicated to both a Dutch furniture designer and the bluesman Blind Willie McTell. 'De Stijl' was similarly complex, as the White Stripes took bold new lyrical chances even as they branched out into sounds as disparate as cabaret jazz and bubblegum pop.</p></div>
       </div><!--wrapper-->
+      </div><!--flex-box2-->
   </div><!--flex-right-->
 </div><!--flex-container-->
 </div><!--horizontal-scroll-wrapper-showcase-->
   <div class="horizontal-scroll-wrapper-showcase">
-       <div class="wrapper wrapper-margin-left">
-            <div class="wrapper--box5">
-              <h2 class="wrapper--box5--title">Elephant</h2>
-                 <img class="wrapper--box5--img animation-img" src="/assets/images/Elephant.jpg">
+       <div class="wrapper">
+       <div class="flex-up">
+            <div class="wrapper--box">
+              <h2 class="title__elephant">Elephant</h2>
+                 <img class="animation-img" src="/assets/images/Elephant.jpg">
             </div>
-                <div class="wrapper--text3--line"></div>
-                <div class="wrapper--box6--text animation-text">
-                    <p>With the triumphant 'Elephant,' the White Stripes bravely eschewed the trappings of their new big-label status. Instead, they went all the way back to the basics. We're talking old equipment, a telescoped timeline of basically two weeks, and no computers during post-production. The result is the White Stripes' very best work, a gutty, unflinching examination of rejection at their moment of widest fame.</p></div>
-            <div class="wrapper--box7">
-               <h2 class="wrapper--box7--title">White Blood Cells</h2>
-                  <img class="wrapper--box7--img animation-img" src="/assets/images/White_Blood_Cells.jpg">
+                <div class="wrapper--line"></div>
+                <div class="flex-text">
+                    <p class="animation-text">With the triumphant 'Elephant,' the White Stripes bravely eschewed the trappings of their new big-label status. Instead, they went all the way back to the basics. We're talking old equipment, a telescoped timeline of basically two weeks, and no computers during post-production. The result is the White Stripes' very best work, a gutty, unflinching examination of rejection at their moment of widest fame.</p></div>
+              </div>
+              <div class="flex-down">
+            <div class="wrapper--box">
+               <h2 class="title__whiteBlood">White Blood Cells</h2>
+                  <img class="animation-img" src="/assets/images/White_Blood_Cells.jpg">
             </div>
-                <div class="wrapper--text4--line"></div>
-                 <div class="wrapper--box8--text animation-text">
-                    <p>Less bluesy and more primal, 'White Blood Cells' features a wealth of material from very early in their career. Still, a general narrative of isolation under great scrutiny begins to emerge, and that theme is only bolstered by the claustrophobic album cover image. Even as fame suddenly surrounded them, the White Stripes' ability to mix toughness and tenderness shone through.</p></div>
+                <div class="wrapper--line"></div>
+                <div class="flex-text">
+                    <p class="animation-text">Less bluesy and more primal, 'White Blood Cells' features a wealth of material from very early in their career. Still, a general narrative of isolation under great scrutiny begins to emerge, and that theme is only bolstered by the claustrophobic album cover image. Even as fame suddenly surrounded them, the White Stripes' ability to mix toughness and tenderness shone through.</p></div>
+              </div>
  </div><!--wrapper-->
  </div><!--horizontal-scroll-wrapper-showcase-->
   <div class="horizontal-scroll-wrapper-showcase">
        <div class="wrapper last-wrapper">
-            <div class="wrapper--box5">
-              <h2 class="wrapper--box8--title">Get Behind Me Satan</h2>
-                 <img class="wrapper--box5--img animation-img" src="/assets/images/getbehind.jpg">
+       <div class="flex-up">
+            <div class="wrapper--box">
+              <h2 class="title__getBehind">Get Behind Me Satan</h2>
+                 <img class="animation-img" src="/assets/images/getbehind.jpg">
             </div>
-                <div class="wrapper--text3--line"></div>
-                <div class="wrapper--box6--text animation-text">
-                    <p>The White Stripes made a series of sharp turns after the sweeping successes of 'Elephant,' as Jack White swapped his prickly electric for things like piano and mandolin. But 'Get Behind Me Satan' was no unplugged session either, despite having been largely recorded in the foyer of White's home. Instead, it's an expectation-exploding statement of musical purpose. Only the album's striking imagery, which White once said focused on the "ideals of truth," holds things together on this challenging, but ultimately very rewarding project.</p></div>
-            <div class="wrapper--box7">
-               <h2 class="wrapper--box9--title">Icky Thump</h2>
-                  <img class="wrapper--box7--img animation-img" src="/assets/images/Icky_Thump.jpg">
+                <div class="wrapper--line"></div>
+                <div class="flex-text">
+                    <p class="animation-text">The White Stripes made a series of sharp turns after the sweeping successes of 'Elephant,' as Jack White swapped his prickly electric for things like piano and mandolin. But 'Get Behind Me Satan' was no unplugged session either, despite having been largely recorded in the foyer of White's home. Instead, it's an expectation-exploding statement of musical purpose. Only the album's striking imagery, which White once said focused on the "ideals of truth," holds things together on this challenging, but ultimately very rewarding project.</p></div>
             </div>
-                <div class="wrapper--text4--line"></div>
-                <div class="wrapper--box8--text animation-text">
-                    <p>The White Stripes' final album takes the bold musical chances of 'Get Behind Me Satan' – adding elements of folk, the avant-garde and even bagpipes to their patented punky, stripped-down garage blues – while returning to deeper lyrical themes in the style of 'De Stijl.' The difference is how heavy 'Icky Thump' was, by comparison. That makes a bucolic detour like "Prickly Thorn, But Sweetly Worn" all the more welcome – like a short exhale before the White Stripes take off again.</p></div>
+            <div class="flex-down">
+            <div class="wrapper--box">
+               <h2 class="title__ickyThump">Icky Thump</h2>
+                  <img class="animation-img" src="/assets/images/Icky_Thump.jpg">
+            </div>
+                <div class="wrapper--line"></div>
+                <div class="flex-text">
+                    <p class="animation-text">The White Stripes' final album takes the bold musical chances of 'Get Behind Me Satan' – adding elements of folk, the avant-garde and even bagpipes to their patented punky, stripped-down garage blues – while returning to deeper lyrical themes in the style of 'De Stijl.' The difference is how heavy 'Icky Thump' was, by comparison. That makes a bucolic detour like "Prickly Thorn, But Sweetly Worn" all the more welcome – like a short exhale before the White Stripes take off again.</p></div>
+                </div>
  </div><!--wrapper-->
  
