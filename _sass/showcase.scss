@@ -25,23 +25,23 @@
 }
 
 .wrapper {
-  height: 95%;
-  width: 100%;
+  height: 96vh;
+  width: 100vw;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: auto auto;
+  margin: 0;
+  padding: 0;
+  grid-template-rows: 48vh 48vh;
   grid-column-gap: 20px;
-  // grid-auto-rows: auto auto;
-  padding-top: 5%;
+  grid-row-gap: 4vh;
 }
 
-.first-wrapper{
-  margin-left: 5%;
+/* padding top */
+.wrapper--box1, .wrapper--text1--line, .wrapper--box2--text,
+.wrapper--box5, .wrapper--text3--line, .wrapper--box6--text{
+  padding-top: 3em;
 }
 
-.last-wrapper{
-  padding-right: 10%;
-}
 
 /* White stripes*/
 .wrapper--box1 {
@@ -76,7 +76,8 @@
 }
 
 .wrapper--box1--title {
-  top: 0.8em;
+  margin-top: 3em;
+  top: 0.5em;
   font-size: 4em;
 }
 
@@ -146,6 +147,7 @@
 
 .wrapper--box5--title {
   left: 2.5em !important;
+  margin-top: 1.5em;
 }
 
 .wrapper--text3--line {
