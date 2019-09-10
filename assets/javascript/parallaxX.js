@@ -14,14 +14,14 @@ function parallax() {
       if (isElementInViewport(vertical)) {
         /* var rect = vertical.getBoundingClientRect() */
         let distanceX = window.pageXOffset;
-        vertical.style.transform = "translateX(" + 0.1 * distanceX + "px)";
+        vertical.style.transform = "translateX(" + 0.3 * distanceX + "px)";
       }
     });
     horizontal.forEach(function(horizontal) {
       if (isElementInViewport(horizontal)) {
         let distanceX = window.pageXOffset;
         /* console.log(distanceX); */
-        horizontal.style.transform = "translateY(-" + 0.1 * distanceX + "px)";
+        horizontal.style.transform = "translateX(-" + 0.2 * distanceX + "px)";
       }
     });
     sevenNationArmy.forEach(function(seven) {
