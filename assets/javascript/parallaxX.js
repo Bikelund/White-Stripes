@@ -1,17 +1,17 @@
 /* 
     Makes parallax scroll effect on texts
 */
-let vertical = document.querySelectorAll(".title-vertical");
-let horizontal = document.querySelectorAll(".static");
-let sevenNationArmy = document.querySelectorAll(".seven-text");
-let waters = document.querySelectorAll('.quote');
-let smallImg = document.querySelectorAll('.small-img');
-let multiplier = [0.1, 0.2, 0.3, 0.4];
+const vertical = document.querySelectorAll(".title-vertical");
+const horizontal = document.querySelectorAll(".static");
+const sevenNationArmy = document.querySelectorAll(".seven-text");
+const waters = document.querySelectorAll('.quote');
+const smallImg = document.querySelectorAll('.small-img');
+const multiplier = [0.1, 0.2, 0.3, 0.4];
 
 function parallax() {
-    
-    vertical.forEach(function(vertical) {
-      if (isElementInViewport(vertical)) {
+  
+  vertical.forEach(function(vertical) {
+    if (isElementInViewport(vertical)) {
         let distanceX = window.pageXOffset;
         vertical.style.transform = "translateX(" + multiplier[2] * distanceX + "px)";
       }
@@ -19,7 +19,6 @@ function parallax() {
     horizontal.forEach(function(horizontal) {
       if (isElementInViewport(horizontal)) {
         let distanceX = window.pageXOffset;
-        /* console.log(distanceX); */
         horizontal.style.transform = "translateX(-" + multiplier[1] * distanceX + "px)";
       }
     });
