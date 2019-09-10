@@ -30,7 +30,7 @@
 </div><!--horizontal-scroll-wrapper-showcase-->
   <div class="horizontal-scroll-wrapper-showcase">
        <div class="wrapper">
-       <div class="flex-up">
+       <div class="flex-up flex-up-middle">
             <div class="wrapper--box">
               <h2 class="title__elephant">Elephant</h2>
                  <img class="animation-img" src="/assets/images/Elephant.jpg">
@@ -39,7 +39,7 @@
                 <div class="flex-text">
                     <p class="animation-text">With the triumphant 'Elephant,' the White Stripes bravely eschewed the trappings of their new big-label status. Instead, they went all the way back to the basics. We're talking old equipment, a telescoped timeline of basically two weeks, and no computers during post-production. The result is the White Stripes' very best work, a gutty, unflinching examination of rejection at their moment of widest fame.</p></div>
               </div>
-              <div class="flex-down">
+              <div class="flex-down flex-down-middle">
             <div class="wrapper--box">
                <h2 class="title__whiteBlood">White Blood Cells</h2>
                   <img class="animation-img" src="/assets/images/White_Blood_Cells.jpg">
@@ -61,7 +61,7 @@
                 <div class="flex-text">
                     <p class="animation-text">The White Stripes made a series of sharp turns after the sweeping successes of 'Elephant,' as Jack White swapped his prickly electric for things like piano and mandolin. But 'Get Behind Me Satan' was no unplugged session either, despite having been largely recorded in the foyer of White's home. Instead, it's an expectation-exploding statement of musical purpose. Only the album's striking imagery, which White once said focused on the "ideals of truth," holds things together on this challenging, but ultimately very rewarding project.</p></div>
             </div>
-            <div class="flex-down">
+            <div class="flex-down flex-down-last">
             <div class="wrapper--box">
                <h2 class="title__ickyThump">Icky Thump</h2>
                   <img class="animation-img" src="/assets/images/Icky_Thump.jpg">

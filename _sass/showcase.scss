@@ -34,20 +34,33 @@
 
 .flex-up{
   height: 50vh;
-  width: 90vh;
+  width: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  padding-left: 3em;
 }
 
 .flex-down {
   height: 50vh;
-  width: 90vh;
+  width: 100vh;
   display: flex;
   flex-direction: row-reverse;
-  padding-left: 20%;
+  padding-left: 30em;
   align-items: center;
+}
+
+.flex-down-last{
+  padding-left: 37em;
+}
+
+.flex-up-middle{
+  padding-left: 16em;
+}
+
+.flex-down-middle{
+  padding-left: 39em;
 }
 
 /* White stripes*/
