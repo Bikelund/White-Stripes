@@ -3,7 +3,7 @@
   display: flex;
   width: 100vw;
   height: 100vh;
-  padding-left: 1vw;
+  padding-left: 3vw;
 }
 .flex-left {
   width: 20vw;
@@ -107,7 +107,7 @@
 }
 
 .title__whiteBlood{
-  top: 1em;
+  top: 1.5em;
 }
 
 .title__getBehind{
@@ -134,18 +134,51 @@
   width: 430px;
 }
 
+/* media query */
+@media (max-width: 1699px) {
+   .title__whiteBlood{
+     top: 0.5em;
+   }
+   .flex-down-first{
+     padding-left: 26em;
+   }
+   .flex-up-last{
+     padding-left: 12em;
+   }
+   .flex-down-last{
+     padding-left: 29em;
+   }
+   .wrapper img{
+    width: 23em;
+   }
+}
+
+@media (max-width: 1500px) {
+   .title__getBehind{
+     top: -2em;
+    left: -7.5em;
+    width: 7em;
+   }
+   .flex-down-first{
+     padding-left: 15em;
+   }
+   .flex-down-middle{
+     padding-left: 30em;
+   }
+   .flex-down-last{
+     padding-left: 23em;
+   }
+   .wrapper img{
+    width: 20em;
+   }
+
+}
 /* Showcase Animation */
 .animation-img {
   opacity: 0;
   transform: translateY(-50px);
   transition: all 1.2s ease-out;
 }
-
-// .wrapper {
-//   height: 100vh;
-// }
-
-/* Animation */
 
 .fadeInImg {
   opacity: 1;
@@ -167,3 +200,4 @@
   opacity: 1;
   transform: translateY(0);
 }
+

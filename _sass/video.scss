@@ -62,9 +62,6 @@
     height: 40vh;
     z-index: 10;
     position: absolute;
-    animation: boxBorder;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
 }
 .first-img {
     background-image: url(/assets/images/sevenNationArmy1.jpg);
@@ -73,25 +70,12 @@
 }
 .second-img {
     background-image: url(/assets/images/sevenNationArmy3.png);
-    top: 40vh;
+    top: 20vh;
     left: 10vw;
 }
-
-@keyframes boxBorder {
-    0% {
-        box-shadow: 0px 0px red;
-    }
-    50% {
-        box-shadow: 0px 0px 10px red;
-    }
-    100% {
-        box-shadow: 0px 0px red;
-    }
-}
-
 .quote-box {
     position: absolute;
-    top: 10vh;
+    top: 40vh;
     left: 40vw;
     width: 20vw;
     height: 1vh;
