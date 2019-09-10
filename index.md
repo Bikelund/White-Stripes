@@ -36,3 +36,4 @@ title: "The White Stripes"
 <script src="assets/javascript/scroll.js"></script>
 <script src="assets/javascript/biographyAnim.js"></script>
 <script src="assets/javascript/videoscroll.js"></script>
+<script src="assets/javascript/outro.js"></script>
