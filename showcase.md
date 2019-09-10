@@ -8,7 +8,7 @@
   </div>
   <div class="flex-right">
   <div class="wrapper">
-      <div class="flex-up">
+      <div class="flex-up flex-up-first">
         <div class="wrapper--box">
             <h2 class="title__whiteStripes">The White Stripes</h2>
                 <img class="animation-img" src="/assets/images/thewhitestripes.jpg">
@@ -16,7 +16,7 @@
             <div class="wrapper--line"></div>
                 <div class="flex-text"><p class="animation-text">This bare-bones debut is the very definition of "less is more." Jack's jagged riffs might have sounded like arena rock, but for the wide-open spaces provided by Meg's off-kilter rhythms. The only thing that was missingÏ on this covers-heavy album was more original material, and that – along with a growing sense of musical adventurousness – completed the White Stripes' distinctive new profile.</p></div>
        </div>
-       <div class="flex-down">
+       <div class="flex-down flex-down-first">
          <div class="wrapper--box">
             <h2 class="title__deStijl">De Stijl</h2>
                 <img class="animation-img" src="/assets/images/De_Stijl.jpg">
@@ -52,7 +52,7 @@
  </div><!--horizontal-scroll-wrapper-showcase-->
   <div class="horizontal-scroll-wrapper-showcase">
        <div class="wrapper last-wrapper">
-       <div class="flex-up">
+       <div class="flex-up flex-up-last">
             <div class="wrapper--box">
               <h2 class="title__getBehind">Get Behind Me Satan</h2>
                  <img class="animation-img" src="/assets/images/getbehind.jpg">
