@@ -16,10 +16,7 @@
 .right {
     width: 60vw;
     height: 100vh;
-    background-color: rgb(54, 54, 54);
     background-color: white;
-    overflow: hidden;
-    color: black;
 }
 
 /* Menubar */
@@ -49,7 +46,7 @@
     height: 3vw;
     background: $backgroundColor;
     transform-origin: left top;
-    /* -webkit- */transform:rotate(-90deg) translateX(-100%);
+    transform: rotate(-90deg) translateX(-100%);
 }
 .main-nav:after {
     content: "";
@@ -62,9 +59,9 @@
 }
 ul.nav li {
     margin-right: 5vh;
-    float:left;
-    height:100%;
-    line-height:45px;
+    float: left;
+    height: 100%;
+    line-height: 45px;
 }
 .title-horizontal {
       float: right;
@@ -78,17 +75,19 @@ ul.nav li {
       padding: 0;
       margin-left: 12px;
       position: absolute;
-      color: white;
+      color: $backgroundColor;
       text-shadow:
-   -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-     1px 1px 0 black;
+   -1px -1px 0 $bodyColor,
+    1px -1px 0 $bodyColor,
+    -1px 1px 0 $bodyColor,
+     1px 1px 0 $bodyColor;
 }
 a {
     text-decoration: none;
     color: $bodyColor;
 }
+
+/* Red underline on hover */
 .custom-underline {
     position: relative;
 }
@@ -127,10 +126,10 @@ ul {
     z-index: 2;
     right: 0;
     text-shadow:
-   -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-     1px 1px 0 #fff;
+   -1px -1px 0 $backgroundColor,
+    1px -1px 0 $backgroundColor,
+    -1px 1px 0 $backgroundColor,
+     1px 1px 0 $backgroundColor;
 }
 .quote-one {
     top: 4vh;

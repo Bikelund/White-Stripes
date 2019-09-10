@@ -1,42 +1,41 @@
 /* 
     Makes parallax scroll effect on texts
 */
+let vertical = document.querySelectorAll(".title-vertical");
+let horizontal = document.querySelectorAll(".static");
+let sevenNationArmy = document.querySelectorAll(".seven-text");
+let waters = document.querySelectorAll('.quote');
+let smallImg = document.querySelectorAll('.small-img');
+let multiplier = [0.1, 0.2, 0.3, 0.4];
 
 function parallax() {
-  let vertical = document.querySelectorAll(".title-vertical");
-  let horizontal = document.querySelectorAll(".static");
-  let sevenNationArmy = document.querySelectorAll(".seven-text");
-  let quotes = document.querySelectorAll('.quote');
-  let smallImg = document.querySelectorAll('.small-img');
-  /* let multiplier = 0.1; */
-  
+    
     vertical.forEach(function(vertical) {
       if (isElementInViewport(vertical)) {
-        /* var rect = vertical.getBoundingClientRect() */
         let distanceX = window.pageXOffset;
-        vertical.style.transform = "translateX(" + 0.3 * distanceX + "px)";
+        vertical.style.transform = "translateX(" + multiplier[2] * distanceX + "px)";
       }
     });
     horizontal.forEach(function(horizontal) {
       if (isElementInViewport(horizontal)) {
         let distanceX = window.pageXOffset;
         /* console.log(distanceX); */
-        horizontal.style.transform = "translateX(-" + 0.2 * distanceX + "px)";
+        horizontal.style.transform = "translateX(-" + multiplier[1] * distanceX + "px)";
       }
     });
     sevenNationArmy.forEach(function(seven) {
       if (isElementInViewport(seven)) {
         let distanceX = elementDistanceFromLeftOfViewport(seven);
-        seven.style.transform = "translateX(" + 0.3 * distanceX + "px)";
+        seven.style.transform = "translateX(" + multiplier[2] * distanceX + "px)";
       }
     });
-    quotes.forEach(function(quote) {
-      if (isElementInViewport(quote)) {
+    waters.forEach(function(water) {
+      if (isElementInViewport(water)) {
         let distanceX2 = window.pageXOffset;
-        quote.style.transform = "translateX(" + 0.4 * distanceX2 + "px)";
-        quotes[1].style.transform = "translateX(" + 0.3 * distanceX2 + "px)";
-        quotes[2].style.transform = "translateX(" + 0.2 * distanceX2 + "px)";
-        quotes[3].style.transform = "translateX(" + 0.1 * distanceX2 + "px)";
+        water.style.transform     = "translateX(" + multiplier[3] * distanceX2 + "px)";
+        waters[1].style.transform = "translateX(" + multiplier[2] * distanceX2 + "px)";
+        waters[2].style.transform = "translateX(" + multiplier[1] * distanceX2 + "px)";
+        waters[3].style.transform = "translateX(" + multiplier[0] * distanceX2 + "px)";
       }
     });
     smallImg.forEach(function(img) {
@@ -62,12 +61,6 @@ function parallax() {
     addEventListener('load', parallax, false);
     addEventListener('scroll', parallax, false);
   }
-  
-  /* function elementDistanceFromBottomOfViewport(el) {
-    let rect = el.getBoundingClientRect();
-  
-    return window.innerHeight - rect.top;
-  } */
 
   function elementDistanceFromLeftOfViewport(el) {
     let rect = el.getBoundingClientRect();

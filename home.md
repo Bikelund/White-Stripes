@@ -1,4 +1,3 @@
-
 <div class="intro">
     <p id="intro-text"></p>
     </div>
@@ -24,4 +23,3 @@
         <p class="quote quote-four">Enough Water</p>
     </div>
  </div>
-
