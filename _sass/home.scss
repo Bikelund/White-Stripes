@@ -143,13 +143,14 @@ ul {
 }
 .quote-four {
     top: 70vh;
-    /* right: -10vw; */
 }
 .home-img {
     background: url(/assets/images/Red_Paper_Penguin_big_transparentBg.png);
-    width: 15vw;
-    height: 30vh;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 5vh;
-} */
+    width: 18vw;
+    height: 40vh;
+    position: relative;
+    top: 3vh;
+    left: 0vw;
+}
