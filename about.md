@@ -10,9 +10,9 @@
             <p class="txt-anim content__p2">The duo were also noted for their fashion and design aesthetic which featured a simple color scheme of red, white, and black—which was used on every album and single cover the band released—as well as the band's fascination with the number three.</p>
             <div class="contact">
                 <h4 class="txt-anim">Contact</h4>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="far fa-envelope"></i></a>
+                <a href="https://www.facebook.com/thewhitestripes/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/white3stripes/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:someone@thewhitestripessite.com" target="_blank"><i class="far fa-envelope"></i></a>
             </div>
         </div>
         <div class="about__title-section">
