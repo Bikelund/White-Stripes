@@ -1,69 +1,10 @@
-var biographyTitleAnimationHasPlayed = false;
-/* Showcase tittle Animation */
-function biographyTitleAnimation() {
-  var biography = document.querySelectorAll(".biography-top .letters");
-  biography.forEach(function(text) {
-    if (isElementInViewport(text) && !biographyTitleAnimationHasPlayed) {
-      biographyTitleAnimationHasPlayed = true;
-      text.innerHTML = text.textContent.replace(
-        /\S/g,
-        "<span class='biography-letter'>$&</span>"
-      );
+const bioText = document.querySelectorAll(".biography-bottom");
+const titleJack = document.querySelectorAll(".biography-top .letters");
+const titleMeg = document.querySelectorAll(".biography-top .letters2");
 
-      anime({
-        targets: ".biography-top .biography-letter",
-        rotateY: [-90, 0],
-        rotateX: [-90, 0],
-        duration: 2300,
-        delay: (el, i) => 245 * i
-      });
-    }
-  });
-}
-
-var biographyTitle2AnimationHasPlayed = false;
-/* Showcase tittle Animation */
-function biographyTitle2Animation() {
-  var biography2 = document.querySelectorAll(".biography-top .letters2");
-  biography2.forEach(function(text) {
-    if (isElementInViewport(text) && !biographyTitle2AnimationHasPlayed) {
-      biographyTitle2AnimationHasPlayed = true;
-      text.innerHTML = text.textContent.replace(
-        /\S/g,
-        "<span class='biography-letter2'>$&</span>"
-      );
-
-      anime({
-        targets: ".biography-top .biography-letter2",
-        rotateY: [-90, 0],
-        rotateX: [-90, 0],
-        duration: 2300,
-        delay: (el, i) => 245 * i
-      });
-    }
-  });
-}
-
-function isElementInViewport(el) {
-  let rect = el.getBoundingClientRect();
-  return rect.left + rect.width / 2 < window.innerWidth;
-}
-
-
-if (window.addEventListener) {
-  addEventListener("DOMContentLoaded", biographyTitleAnimation, false);
-  addEventListener("load", biographyTitleAnimation, false);
-  addEventListener("scroll", biographyTitleAnimation, false);
-}
-
-if (window.addEventListener) {
-  addEventListener("DOMContentLoaded", biographyTitle2Animation, false);
-  addEventListener("load", biographyTitle2Animation, false);
-  addEventListener("scroll", biographyTitle2Animation, false);
-}
-/* Biography text animation */
-function bioTxtAnimation() {
-    var bioText = document.querySelectorAll(".biography-bottom");
+let biographyJackAnimationHasPlayed = false;
+let biographyMegAnimationHasPlayed = false;
+function bioAnimation() {
     bioText.forEach(function(text) {
       if (isElementInViewport(text)) {
         text.classList.add("bioTextFadeOut");
@@ -71,12 +12,54 @@ function bioTxtAnimation() {
         text.classList.remove("bioTextFadeOut");
       }
     });
+
+    titleJack.forEach(function(jack) {
+      if (isElementInViewport(jack) && !biographyJackAnimationHasPlayed) {
+        biographyJackAnimationHasPlayed = true;
+        jack.innerHTML = jack.textContent.replace(
+          /\S/g,
+          "<span class='biography-letter'>$&</span>"
+        );
+  
+        anime({
+          targets: ".biography-top .biography-letter",
+          rotateY: [-90, 0],
+          rotateX: [-90, 0],
+          duration: 2300,
+          delay: (el, i) => 245 * i
+        });
+      }
+    });
+
+    titleMeg.forEach(function(meg) {
+      if (isElementInViewport(meg) && !biographyMegAnimationHasPlayed) {
+        biographyMegAnimationHasPlayed = true;
+        meg.innerHTML = meg.textContent.replace(
+          /\S/g,
+          "<span class='biography-letter2'>$&</span>"
+        );
+  
+        anime({
+          targets: ".biography-top .biography-letter2",
+          rotateY: [-90, 0],
+          rotateX: [-90, 0],
+          duration: 2300,
+          delay: (el, i) => 245 * i
+        });
+      }
+    });
   }
+
+
+function isElementInViewport(el) {
+  let rect = el.getBoundingClientRect();
+  return rect.left + rect.width / 2 < window.innerWidth;
+}
   
   if (window.addEventListener) {
-    addEventListener("DOMContentLoaded", bioTxtAnimation, false);
-    addEventListener("load", bioTxtAnimation, false);
-    addEventListener("scroll", bioTxtAnimation, false);
+    addEventListener("DOMContentLoaded", bioAnimation, false);
+    addEventListener("load", bioAnimation, false);
+    addEventListener("scroll", bioAnimation, false);
   }
 
 
